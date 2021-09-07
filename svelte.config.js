@@ -16,7 +16,7 @@ const config = {
 
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
-		adapter: require('@sveltejs/adapter-static'),
+		adapter: require('@sveltejs/adapter-static')(),
 		target: '#svelte',
 		vite: {
 			ssr: {
