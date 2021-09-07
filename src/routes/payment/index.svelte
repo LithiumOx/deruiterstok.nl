@@ -27,7 +27,9 @@
 		// await sleep(500);
 		// Create a Stripe client.
 		// Note: this merchant has been set up for demo purposes.
-		const stripe = Stripe('pk_test_6pRNASCoBOKtIshFeQd4XMUh');
+		const stripe = Stripe(
+			'pk_test_51HgzvLDWPf9Qm10YHT0zII9fds6tLlXmbbofwkLNgtKmVjQqc9iVflh3mw5wbn17rFip0lLFqQ6En6MNmJJYy4Gv00jUzjYwOU'
+		);
 
 		// Create an instance of Elements.
 		var elements = stripe.elements();
@@ -37,13 +39,13 @@
 		var style = {
 			base: {
 				padding: '10px 12px',
-				color: '#32325d',
+				color: '#9ca3af',
 				fontFamily:
 					'-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
 				fontSmoothing: 'antialiased',
 				fontSize: '16px',
 				'::placeholder': {
-					color: '#aab7c4'
+					color: '#9ca3af'
 				}
 			},
 			invalid: {
@@ -72,9 +74,9 @@
 					name: document.querySelector('input[name="name"]').value
 				},
 				// Specify the URL to which the customer should be redirected
-				// after paying.
+				// fter paying.
 				redirect: {
-					return_url: 'http://localhost/payment'
+					return_url: 'http://localhost:3000/payment'
 				}
 			};
 
@@ -100,13 +102,13 @@
 </svelte:head>
 
 <form id="payment-form">
-	<div class="form-row">
-		<label for="name"> Name </label>
+	<div class="form-row grid">
+		<label for="name"> <span class="label-text">Naam</span> </label>
 		<input id="name" name="name" placeholder="Jenny Rosen" required />
 	</div>
 
-	<div class="form-row">
-		<label for="ideal-bank-element"> iDEAL Bank </label>
+	<div class="form-row grid">
+		<label for="ideal-bank-element"> <span class="la">iDEAL Bank</span> </label>
 		<div id="ideal-bank-element">
 			<!-- A Stripe Element will be inserted here. -->
 		</div>
@@ -119,23 +121,23 @@
 </form>
 
 <style>
-	#payment-form input .StripeElement {
-		@apply bg-red-600;
+	#name {
+		@apply input input-bordered;
 	}
-
-	input #name {
-		@apply m-5;
+	#payment-form {
+		@apply m-10;
 	}
-
-	#payment-form input:focus .StripeElement--focus {
-		box-shadow: 0 1px 3px 0 #cfd7df;
+	#form-row {
+		@apply m-5 max-w-lg mt-5;
 	}
-
-	#payment-form .StripeElement--invalid {
-		border-color: #fa755a;
+	div #ideal-bank-element {
+		@apply bg-base-100 rounded-lg border border-gray-500;
+	}
+	div #ideal-bank-element span {
+		@apply text-base-content;
 	}
 
 	#payment-form button {
-		@apply btn btn-primary;
+		@apply btn btn-primary mt-5;
 	}
 </style>

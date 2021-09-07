@@ -2,7 +2,7 @@
 	"name": "deruiterstok.nl",
 	"version": "0.0.1",
 	"scripts": {
-		"dev:only": "svelte-kit dev",
+		"dev:only": "svelte-kit dev --host 0.0.0.0",
 		"dev": "concurrently \"npm run dev:only\" \"npm run tailwind:watch\"",
 		"build:only": "svelte-kit build",
 		"build": "npm run tailwind:build && npm run build:only",
@@ -39,6 +39,7 @@
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.2.2",
 		"@lukeed/uuid": "^2.0.0",
+		"@tailwindcss/typography": "^0.4.1",
 		"concurrently": "^6.2.1",
 		"cookie": "^0.4.1",
 		"cross-env": "^7.0.3",
