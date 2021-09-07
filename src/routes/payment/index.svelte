@@ -27,9 +27,7 @@
 		// await sleep(500);
 		// Create a Stripe client.
 		// Note: this merchant has been set up for demo purposes.
-		const stripe = Stripe(
-			'pk_test_51HgzvLDWPf9Qm10YHT0zII9fds6tLlXmbbofwkLNgtKmVjQqc9iVflh3mw5wbn17rFip0lLFqQ6En6MNmJJYy4Gv00jUzjYwOU'
-		);
+		const stripe = Stripe(process.env.VITE_STRIPE_PUBLIC_KEY);
 
 		// Create an instance of Elements.
 		var elements = stripe.elements();

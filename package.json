@@ -5,7 +5,7 @@
 		"dev:only": "svelte-kit dev --host 0.0.0.0",
 		"dev": "concurrently \"npm run dev:only\" \"npm run tailwind:watch\"",
 		"build:only": "svelte-kit build",
-		"build": "npm run tailwind:build && npm run build:only",
+		"build": "npm run build:only",
 		"preview": "svelte-kit preview",
 		"tailwind:watch": "cross-env TAILWIND_MODE=watch cross-env NODE_ENV=development postcss src/styles/tailwind.css -o src/styles/tailwind-output.css -w",
 		"tailwind:build": "cross-env TAILWIND_MODE=build cross-env NODE_ENV=production postcss src/styles/tailwind.css -o src/styles/tailwind-output.css",
@@ -15,6 +15,7 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
+		"@sveltejs/adapter-static": "^1.0.0-next.18",
 		"@sveltejs/kit": "next",
 		"@types/cookie": "^0.4.0",
 		"@typescript-eslint/eslint-plugin": "^4.19.0",
