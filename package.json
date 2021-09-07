@@ -5,7 +5,7 @@
 		"dev:only": "svelte-kit dev --host 0.0.0.0",
 		"dev": "concurrently \"npm run dev:only\" \"npm run tailwind:watch\"",
 		"build:only": "svelte-kit build",
-		"build": "npm run build:only",
+		"build": "npm run tailwind:build && npm run build:only",
 		"preview": "svelte-kit preview",
 		"tailwind:watch": "cross-env TAILWIND_MODE=watch cross-env NODE_ENV=development postcss src/styles/tailwind.css -o src/styles/tailwind-output.css -w",
 		"tailwind:build": "cross-env TAILWIND_MODE=build cross-env NODE_ENV=production postcss src/styles/tailwind.css -o src/styles/tailwind-output.css",
@@ -46,7 +46,6 @@
 		"cross-env": "^7.0.3",
 		"daisyui": "^1.14.0",
 		"dotenv": "^10.0.0",
-		"svelte-hero-icons": "^2.4.0",
 		"svelte-stripe-js": "^0.0.8"
 	}
 }
