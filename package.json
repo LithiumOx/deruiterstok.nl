@@ -6,6 +6,7 @@
 		"dev": "concurrently \"npm run dev:only\" \"npm run tailwind:watch\"",
 		"build:only": "svelte-kit build",
 		"build": "npm run tailwind:build && npm run build:only",
+		"build:css": "postcss src/styles/tailwind.css -o build/tailwind.css",
 		"preview": "svelte-kit preview",
 		"tailwind:watch": "cross-env TAILWIND_MODE=watch cross-env NODE_ENV=development",
 		"tailwind:build": "cross-env TAILWIND_MODE=build cross-env NODE_ENV=production",
