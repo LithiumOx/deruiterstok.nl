@@ -14,7 +14,7 @@
 			{#if $page.path === '/app/settings'}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
+					class="h-6 w-6"
 					viewBox="0 0 20 20"
 					fill="currentColor"
 				>
@@ -27,7 +27,7 @@
 			{:else}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
+					class="h-6 w-6"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"
@@ -53,7 +53,7 @@
 			>{#if $page.path === '/app/calendar'}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
+					class="h-6 w-6"
 					viewBox="0 0 20 20"
 					fill="currentColor"
 				>
@@ -66,7 +66,7 @@
 			{:else}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
+					class="h-6 w-6"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"
@@ -86,7 +86,7 @@
 			{#if $page.path === '/app'}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
+					class="h-6 w-6"
 					viewBox="0 0 20 20"
 					fill="currentColor"
 				>
@@ -97,7 +97,7 @@
 			{:else}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
+					class="h-6 w-6"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"
@@ -117,7 +117,7 @@
 			>{#if $page.path === '/app/qrscanner'}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
+					class="h-6 w-6"
 					viewBox="0 0 20 20"
 					fill="currentColor"
 				>
@@ -133,7 +133,7 @@
 			{:else}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
+					class="h-6 w-6"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"
@@ -153,7 +153,7 @@
 			>{#if $page.path === '/app/profile'}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
+					class="h-6 w-6"
 					viewBox="0 0 20 20"
 					fill="currentColor"
 				>
@@ -166,7 +166,7 @@
 			{:else}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
+					class="h-6 w-6"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"
