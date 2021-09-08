@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>De Ruiterstok</title>
 </svelte:head>
 
 <div class="hero min-h-screen bg-base-100" style="background-image: url({Background});">
