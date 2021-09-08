@@ -1,7 +1,5 @@
 <script>
-    function handleClick() {
-        window.
-    }
+	function handleClick() {}
 </script>
 
 <h1>Settings</h1>
