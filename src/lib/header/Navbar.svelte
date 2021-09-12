@@ -7,7 +7,7 @@
 </script>
 
 <ul class="menu justify-center flex-none w-full px-3 horizontal bg-base-100 fixed bottom-0">
-	<li>
+	<!-- <li>
 		<a href="/app/settings" sveltekit:prefetch>
 			{#if $page.path === '/app/settings'}
 				<svg
@@ -45,7 +45,7 @@
 				</svg>
 			{/if}
 		</a>
-	</li>
+	</li> -->
 	<li>
 		<a href="/app/calendar" sveltekit:prefetch
 			>{#if $page.path === '/app/calendar'}
