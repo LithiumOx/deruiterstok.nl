@@ -1,0 +1,17 @@
+{
+    "short_name": "De Ruiterstok",
+    "name": "De Ruiterstok",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "logo_512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/app",
+    "theme_color": "#3367D6",
+    "description": "De app versie van de Ruiterstok site"
+}
