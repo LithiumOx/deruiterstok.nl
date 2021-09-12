@@ -7,9 +7,10 @@
 </script>
 
 <script>
-	import Nav from '$lib/header/Navbar.svelte';
+	import Nav from '$lib/components/Navbar.svelte';
+	import Header from '$lib/components/Header.svelte';
 	import Login from './auth.svelte';
-	import Transition from '$lib/Transition.svelte';
+	import Transition from '$lib/components/Transition.svelte';
 
 	export let key;
 
@@ -17,6 +18,7 @@
 </script>
 
 {#if loggedIn === true}
+	<Header />
 	<Transition refresh={key}>
 		<slot />
 	</Transition>
