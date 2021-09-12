@@ -50,6 +50,7 @@
 		"daisyui": "^1.14.0",
 		"dotenv": "^10.0.0",
 		"instascan": "^1.0.0",
+		"svelte-qr-scanner": "^1.1.0",
 		"svelte-stripe-js": "^0.0.8"
 	}
 }
