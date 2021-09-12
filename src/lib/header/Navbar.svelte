@@ -6,9 +6,7 @@
 	import { page } from '$app/stores';
 </script>
 
-<ul
-	class="menu justify-center flex-none lg:max-w-lg self-center lg:mb-5 px-3 horizontal bg-base-100 fixed bottom-0 rounded-box"
->
+<ul class="menu justify-center flex-none w-full px-3 horizontal bg-base-100 fixed bottom-0">
 	<li>
 		<a href="/app/settings" sveltekit:prefetch>
 			{#if $page.path === '/app/settings'}
