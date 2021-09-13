@@ -14,13 +14,15 @@
 	} from '@dopry/svelte-auth0';
 </script>
 
-<Auth0Context domain="devenv1.eu.auth0.com" client_id="ByHotM5JrhtGVsdOjmKgKVJItMox4sSz">
-	<div class="flex">
-		<Auth0LoginButton class="btn" callback_url="https://deruiterstok.nl/app">Login</Auth0LoginButton
-		>
-		<Auth0LogoutButton class="btn" logout_url="https://deruiterstok.nl/app"
-			>Logout</Auth0LogoutButton
-		>
+<Auth0Context
+	domain="devenv1.eu.auth0.com"
+	client_id="ByHotM5JrhtGVsdOjmKgKVJItMox4sSz"
+	callback_url="https://deruiterstok.nl/app"
+	logout_url="https://deruiterstok.nl/app"
+>
+	<div class="flex m-15">
+		<Auth0LoginButton class="btn">Login</Auth0LoginButton>
+		<Auth0LogoutButton class="btn">Logout</Auth0LogoutButton>
 	</div>
 
 	<pre>isLoading: {$isLoading}</pre>
