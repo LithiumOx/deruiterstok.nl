@@ -14,7 +14,7 @@
 	import { Auth0Context, isAuthenticated } from '@dopry/svelte-auth0';
 	export let key;
 
-	$: loggedIn = isAuthenticated;
+	let loggedIn = $isAuthenticated;
 </script>
 
 <Auth0Context
