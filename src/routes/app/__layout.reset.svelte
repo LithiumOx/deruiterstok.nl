@@ -6,7 +6,7 @@
 	});
 </script>
 
-<script>
+<script lang="typescript">
 	import Nav from '$lib/components/Navbar.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import Login from './auth.svelte';
@@ -14,7 +14,7 @@
 	import { Auth0Context, isAuthenticated } from '@dopry/svelte-auth0';
 	export let key;
 
-	const loggedIn = $isAuthenticated;
+	$: loggedIn = isAuthenticated;
 </script>
 
 <Auth0Context
