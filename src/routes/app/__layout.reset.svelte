@@ -14,7 +14,7 @@
 
 	export let key;
 
-	const loggedIn = true;
+	const loggedIn = false;
 </script>
 
 {#if loggedIn === true}
@@ -24,11 +24,13 @@
 	</Transition>
 	<Nav />
 {:else}
+	<Header />
 	<Login />
+	<Nav />
 {/if}
 
-<style global>
-	::global(:root) {
-		@apply bg-red-700 opacity-25;
+<style>
+	:global(body) {
+		@apply bg-base-content; /* this will apply to <body> */
 	}
 </style>
