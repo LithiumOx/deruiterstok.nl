@@ -11,10 +11,10 @@
 	import Header from '$lib/components/Header.svelte';
 	import Login from './auth.svelte';
 	import Transition from '$lib/components/Transition.svelte';
-	import { Auth0Context, isAuthenticated } from '@dopry/svelte-auth0';
+	import { Auth0Context, isLoading } from '@dopry/svelte-auth0';
 	export let key;
 
-	let loggedIn = $isAuthenticated;
+	let loggedIn = $isLoading;
 </script>
 
 <Auth0Context
