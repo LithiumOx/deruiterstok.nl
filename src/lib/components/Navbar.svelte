@@ -7,7 +7,7 @@
 </script>
 
 <ul
-	class="menu justify-center flex-none w-full px-3 horizontal bg-neutral fixed bottom-0 z-10 pb-2 pt-2"
+	class="menu justify-center flex-none w-full px-3 horizontal bg-neutral fixed bottom-0 z-10 pb-1 pt-1 rounded-t-xl"
 >
 	<!-- <li>
 		<a href="/app/settings" sveltekit:prefetch>
