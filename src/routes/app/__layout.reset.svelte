@@ -14,7 +14,7 @@
 
 	export let key;
 
-	const loggedIn = false;
+	const loggedIn = true;
 </script>
 
 {#if loggedIn === true}

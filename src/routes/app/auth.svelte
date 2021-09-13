@@ -15,8 +15,14 @@
 </script>
 
 <Auth0Context domain="devenv1.eu.auth0.com" client_id="ByHotM5JrhtGVsdOjmKgKVJItMox4sSz">
-	<Auth0LoginButton class="btn">Login</Auth0LoginButton>
-	<Auth0LogoutButton class="btn">Logout</Auth0LogoutButton>
+	<div class="flex">
+		<Auth0LoginButton class="btn" callback_url="https://deruiterstok.nl/app">Login</Auth0LoginButton
+		>
+		<Auth0LogoutButton class="btn" logout_url="https://deruiterstok.nl/app"
+			>Logout</Auth0LogoutButton
+		>
+	</div>
+
 	<pre>isLoading: {$isLoading}</pre>
 	<pre>isAuthenticated: {$isAuthenticated}</pre>
 	<pre>authToken: {$authToken}</pre>
