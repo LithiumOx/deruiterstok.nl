@@ -3,10 +3,12 @@
 	import { page } from '$app/stores';
 </script>
 
-<div class="navbar flex-none w-full pt-6 bg-neutral text-neutral-content z-10">
+<div class="navbar flex-none w-full pb-2 pt-2 bg-neutral text-neutral-content z-10">
 	<div class="flex-none">
-		<label for="mobile-drawer" class="btn btn-circle btn-ghost drawer-button"
-			><img src={Logo} alt="" /></label
+		<a href="/"
+			><label for="mobile-drawer" class="btn btn-circle btn-ghost drawer-button"
+				><img src={Logo} alt="" /></label
+			></a
 		>
 	</div>
 	<div class="flex-1 px-2 mx-2"><span class="text-lg font-bold" /></div>
