@@ -1,9 +1,9 @@
-<div class="bg-base-200 min-h-[80vh] rounded-box p-3">
-	<h1 class="font-bold text-base-content p-3">Huisregels</h1>
+<div class="bg-base-200 min-h-[80vh] rounded-box p-3 flex flex-wrap justify-center">
+	<h1 class="font-bold self-center text-base-content p-3">Huisregels</h1>
 	<ul class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-stretch">
 		<li class="flex-wrap">
 			• <p>Wij schenken alleen alcohol aan 18 jaar en ouder.</p>
-			<div class="alert alert-warning ">
+			<div class="alert alert-warning items-start">
 				<div class="flex-1">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@
 		</li>
 		<li class="flex-wrap">
 			• <p>Roken is binnen niet toegestaan.</p>
-			<div class="alert alert-info">
+			<div class="alert alert-info items-start">
 				<div class="flex-1">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +101,7 @@
 			• <p>Op vrijdag geldt een minimale leeftijd van 16 jaar.</p>
 		</li>
 	</ul>
-	<div class="alert alert-error p-2 h-15 md:w-1/2 md:mx-64">
+	<div class="alert alert-error p-2 max-h-20 self-end">
 		<div class="flex-1 font-bold items-center">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -134,7 +134,7 @@
 		@apply flex m-1 p-2 px-2 max-w-xl text-left font-black text-primary text-2xl bg-base-300 inset-0 border-2 transition duration-300 border-base-300 hover:border-primary rounded-box items-center;
 	}
 	p {
-		@apply ml-2 text-base font-light my-2 text-base-content;
+		@apply first:text-xs ml-2 text-xl font-light my-2 text-base-content hover:text-sm transition;
 	}
 	label {
 		@apply text-xs;
