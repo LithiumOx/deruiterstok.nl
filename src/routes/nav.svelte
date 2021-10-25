@@ -1,20 +1,15 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
-
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 
-	import Logo from '../../assets/Logo.svg';
+	import Logo from '../assets/Logo.svg';
 	onMount(() => {
 		const btn = document.querySelector('button.mobile-menu-button');
 		const menu = document.querySelector('.mobile-menu');
-
 		// add event listeners
-		btn.addEventListener('click', () => {
-			menu.classList.toggle('hidden');
-		});
+		// btn.addEventListener('click', () => {
+		// 	menu.classList.toggle('hidden');
+		// });
 	});
 </script>
 
