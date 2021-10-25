@@ -40,6 +40,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@dimfeld/svelte-lazyload": "^0.0.4",
 		"@dopry/svelte-auth0": "^2.0.0",
 		"@fontsource/fira-mono": "^4.2.2",
 		"@hapi/iron": "^6.0.0",
@@ -53,6 +54,7 @@
 		"dotenv": "^10.0.0",
 		"instascan": "^1.0.0",
 		"magic-sdk": "^6.0.5",
+		"svelte-lazyload": "^0.0.4",
 		"svelte-qr-scanner": "^1.1.0",
 		"svelte-stripe-js": "^0.0.8"
 	}

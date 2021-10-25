@@ -22,7 +22,9 @@
 <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box justify-between">
 	<a href="/dev" class="flex px-2 mx-2 no-underline">
 		<img class="h-12 w-12" src={Logo} alt="" />
-		<span class="text-lg text-base-content font-bold no-underline"> De Ruiterstok </span>
+		<span class="text-lg text-base-content font-bold align-middle no-underline">
+			De Ruiterstok
+		</span>
 	</a>
 	<div class="flex-none hidden px-2 mx-2 lg:flex">
 		<div class="flex items-stretch">
