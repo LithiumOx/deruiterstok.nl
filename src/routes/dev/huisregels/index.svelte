@@ -1,6 +1,6 @@
-<div class="bg-base-100 rounded-box items-center p-3">
+<div class="bg-base-100 rounded-box items-center p-3 drop-shadow-md ">
 	<h1 class="font-bold text-base-content p-3">Huisregels</h1>
-	<ul class="grid md:grid-cols-2 grid-cols-1">
+	<ul class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
 		<li class="flex-wrap">
 			• <p>Wij schenken alleen alcohol aan 18 jaar en ouder.</p>
 			<div class="alert alert-warning ">
@@ -131,7 +131,7 @@
 		@apply p-2;
 	}
 	li {
-		@apply flex m-1 p-2 px-4 max-w-xl text-left font-black text-primary text-2xl bg-base-200 hover:bg-base-300 rounded-xl items-center;
+		@apply flex m-1 p-2 px-2 max-w-xl text-left font-black text-primary text-2xl bg-base-200 hover:bg-base-300 rounded-xl items-center;
 	}
 	p {
 		@apply ml-2 text-base font-light my-2 text-base-content;

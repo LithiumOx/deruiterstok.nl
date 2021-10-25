@@ -8,12 +8,14 @@
 
 <script lang="typescript">
 	import Nav from './nav.svelte';
+	import Footer from './footer.svelte';
 	export let key;
 </script>
 
 <div>
 	<Nav />
 	<slot />
+	<Footer />
 </div>
 
 <svelte:head>
