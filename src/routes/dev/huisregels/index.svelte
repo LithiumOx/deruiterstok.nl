@@ -1,4 +1,4 @@
-<div class="bg-base-100 rounded-box items-center p-3 drop-shadow-md ">
+<div class="bg-base-200 rounded-box items-center p-3">
 	<h1 class="font-bold text-base-content p-3">Huisregels</h1>
 	<ul class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
 		<li class="flex-wrap">
@@ -44,7 +44,7 @@
 						/>
 					</svg>
 					<!-- svelte-ignore a11y-label-has-associated-control -->
-					<label>Ook mag er niet gerookt worden in de entree als de buitendeur open staat.</label>
+					<label>Ook mag er niet gerookt worden in het entree als de buitendeur open staat.</label>
 				</div>
 			</div>
 		</li>
@@ -131,7 +131,7 @@
 		@apply p-2;
 	}
 	li {
-		@apply flex m-1 p-2 px-2 max-w-xl text-left font-black text-primary text-2xl bg-base-200 hover:bg-base-300 rounded-xl items-center;
+		@apply flex m-1 p-2 px-2 max-w-xl text-left font-black text-primary text-2xl bg-base-300 inset-0 border-2 border-base-300 hover:border-primary rounded-box items-center;
 	}
 	p {
 		@apply ml-2 text-base font-light my-2 text-base-content;
