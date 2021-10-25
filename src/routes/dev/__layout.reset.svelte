@@ -18,7 +18,7 @@
 
 <svelte:head>
 	<style>
-		@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+		@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 	</style>
 </svelte:head>
 
