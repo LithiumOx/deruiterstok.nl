@@ -9,7 +9,7 @@
 <script lang="typescript">
 	import Nav from '$lib/components/Navbar.svelte';
 	import Header from '$lib/components/Header.svelte';
-	import Login from './auth.svelte';
+	import Login from './auth/index.svelte';
 	import Transition from '$lib/components/Transition.svelte';
 	export let key;
 

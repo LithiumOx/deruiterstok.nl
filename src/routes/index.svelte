@@ -18,8 +18,8 @@
 			<img src={Logo} alt="" />
 			<h1 class="mb-2.5 text-5xl font-bold text-neutral-content">De Ruiterstok</h1>
 			<p class="mb-5 text-neutral-content">
-				Organisatie voor en door de jongeren van Schermerhorn. <br /><br /> Volg onze social media voor
-				updates over het nieuwe seizoen en de uitbouw van de site! 👇
+				Organisatie in het belang van de jeugd uit Schermerhorn. <br /><br /> Volg onze social media
+				voor updates over het nieuwe seizoen en de uitbouw van de site! 👇
 			</p>
 			<div
 				class="rounded-box bg-base-content border-4 border-base-200 text-base-content flex justify-center p-2.5"
