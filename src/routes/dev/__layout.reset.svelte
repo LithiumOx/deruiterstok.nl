@@ -9,12 +9,15 @@
 <script lang="typescript">
 	import Nav from './nav.svelte';
 	import Footer from './footer.svelte';
+	import Transition from '$lib/components/Transition.svelte';
 	export let key;
 </script>
 
 <div>
 	<Nav />
-	<slot />
+	<Transition refresh={key}>
+		<slot />
+	</Transition>
 	<Footer />
 </div>
 

@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 
 	import Logo from '../../assets/Logo.svg';
@@ -14,14 +15,14 @@
 </script>
 
 <!-- content goes here -->
-<div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
-	<div class="flex-1 px-2 mx-2 items-center">
+<div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box justify-between">
+	<a href="/dev" class="flex px-2 mx-2 no-underline">
 		<img class="h-12 w-12" src={Logo} alt="" />
-		<span class="text-lg font-bold"> De Ruiterstok </span>
-	</div>
+		<span class="text-lg text-base-content font-bold no-underline"> De Ruiterstok </span>
+	</a>
 	<div class="flex-none hidden px-2 mx-2 lg:flex">
 		<div class="flex items-stretch">
-			<a href="/dev" class="btn btn-ghost btn-md rounded-btn">
+			<a sveltekit:prefetch href="/dev" class="btn btn-ghost btn-md rounded-btn no-underline">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="inline-block w-5 mr-2 stroke-current"
@@ -38,7 +39,11 @@
 				</svg>
 				Home
 			</a>
-			<a href="/dev/huisregels" class="btn btn-ghost btn-md rounded-btn">
+			<a
+				sveltekit:prefetch
+				href="/dev/huisregels"
+				class="btn btn-ghost btn-md rounded-btn text-center no-underline"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="inline-block w-5 mr-2 stroke-current"
@@ -49,7 +54,11 @@
 				</svg>
 				Huisregels
 			</a>
-			<a href="/dev/nieuws" class="btn btn-ghost btn-md rounded-btn">
+			<a
+				sveltekit:prefetch
+				href="/dev/nieuws"
+				class="btn btn-ghost btn-md rounded-btn no-underline"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="inline-block w-5 mr-2 stroke-current"
@@ -66,7 +75,11 @@
 				</svg>
 				Nieuws
 			</a>
-			<a href="/dev/over-ons" class="btn btn-ghost btn-md rounded-btn">
+			<a
+				sveltekit:prefetch
+				href="/dev/over-ons"
+				class="btn btn-ghost btn-md rounded-btn no-underline"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="inline-block w-5 mr-2 stroke-current"
@@ -107,7 +120,7 @@
 			class="shadow menu dropdown-content bg-base-100 rounded-box w-52 items-center mt-80"
 		>
 			<li class="mt-2">
-				<a href="/dev" class="btn btn-ghost btn-md rounded-btn">
+				<a href="/dev" class="btn btn-ghost btn-md rounded-btn no-underline">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="inline-block w-5 mr-2 stroke-current"
@@ -126,7 +139,11 @@
 				</a>
 			</li>
 			<li class="mt-2">
-				<a href="/dev/huisregels" class="btn btn-ghost btn-md rounded-btn">
+				<a
+					sveltekit:prefetch
+					href="/dev/huisregels"
+					class="btn btn-ghost btn-md rounded-btn no-underline"
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="inline-block w-5 mr-2 stroke-current"
@@ -139,7 +156,11 @@
 				</a>
 			</li>
 			<li class="mt-2">
-				<a href="/dev/nieuws" class="btn btn-ghost btn-md rounded-btn">
+				<a
+					sveltekit:prefetch
+					href="/dev/nieuws"
+					class="btn btn-ghost btn-md rounded-btn no-underline"
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="inline-block w-5 mr-2 stroke-current"
@@ -158,7 +179,11 @@
 				</a>
 			</li>
 			<li class="mb-2">
-				<a href="/dev/over-ons" class="btn btn-ghost btn-md rounded-btn">
+				<a
+					sveltekit:prefetch
+					href="/dev/over-ons"
+					class="btn btn-ghost btn-md rounded-btn no-underline"
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="inline-block w-5 mr-2 stroke-current"

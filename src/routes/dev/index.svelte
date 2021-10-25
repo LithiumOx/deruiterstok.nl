@@ -2,10 +2,10 @@
 	import Background from '../../assets/topography.svg';
 </script>
 
-<div class="hero min-h-screen rounded-box bg-base-200" style="background-image: url({Background});">
+<div class="hero min-h-[80vh] rounded-box bg-base-200" style="background-image: url({Background});">
 	<div class="text-center hero-content">
 		<div class="max-w-md">
-			<h1 class="text-9xl text-base-content mb-5">🎉</h1>
+			<h1 class="text-6xl text-base-content mb-5 motion-reduce:animate-bounce">🎉</h1>
 			<h1 class="mb-10 text-4xl font-bold text-base-content">Seizoen 2021-2022</h1>
 			<p class="mb-5 text-base-content">
 				Het nieuwe seizoen is begonnen, 2021-2022! En jeetje wat zijn we trots dat we na 1.5 jaar
@@ -15,7 +15,7 @@
 				door te trekken naar het nieuwe seizoen. Maar natuurlijk is een (vrijwillige) bijdrage voor de
 				vereniging meer dan welkom. Immers had je normaliter ook weer lid moeten worden.
 			</p>
-			<button class="btn btn-primary">Wordt lid!</button>
+			<button class="btn btn-primary cursor-wait no-animation">Wordt lid!</button>
 		</div>
 	</div>
 </div>

@@ -1,6 +1,6 @@
-<div class="bg-base-200 rounded-box items-center p-3">
+<div class="bg-base-200 min-h-[80vh] rounded-box p-3">
 	<h1 class="font-bold text-base-content p-3">Huisregels</h1>
-	<ul class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+	<ul class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-stretch">
 		<li class="flex-wrap">
 			• <p>Wij schenken alleen alcohol aan 18 jaar en ouder.</p>
 			<div class="alert alert-warning ">
@@ -9,7 +9,7 @@
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
-						class="w-6 h-6 mx-2 stroke-current"
+						class="w-6 h-6 mx-2 md:w-9 md:h-9 stroke-current"
 					>
 						<path
 							stroke-linecap="round"
@@ -34,7 +34,7 @@
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
-						class="w-6 h-6 mx-2 stroke-current"
+						class="w-6 h-6 md:w-9 md:h-9 mx-2 stroke-current"
 					>
 						<path
 							stroke-linecap="round"
@@ -101,13 +101,13 @@
 			• <p>Op vrijdag geldt een minimale leeftijd van 16 jaar.</p>
 		</li>
 	</ul>
-	<div class="alert alert-error p-2 h-15">
+	<div class="alert alert-error p-2 h-15 md:w-1/2 md:mx-64">
 		<div class="flex-1 font-bold items-center">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
 				viewBox="0 0 24 24"
-				class="w-14 h-14 mx-2 stroke-current"
+				class="w-14 h-14 mx-2 stroke-current animate-pulse"
 			>
 				<path
 					stroke-linecap="round"
@@ -131,7 +131,7 @@
 		@apply p-2;
 	}
 	li {
-		@apply flex m-1 p-2 px-2 max-w-xl text-left font-black text-primary text-2xl bg-base-300 inset-0 border-2 border-base-300 hover:border-primary rounded-box items-center;
+		@apply flex m-1 p-2 px-2 max-w-xl text-left font-black text-primary text-2xl bg-base-300 inset-0 border-2 transition duration-300 border-base-300 hover:border-primary rounded-box items-center;
 	}
 	p {
 		@apply ml-2 text-base font-light my-2 text-base-content;
