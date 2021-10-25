@@ -7,5 +7,12 @@
 		loop
 		autoplay
 	/>
-	<h1 class="font-bold text-base-content">Wordt nog aan gewerkt!</h1>
+	<h1 class="font-bold text-base-content pt-12">Wordt nog aan gewerkt!</h1>
 </div>
+
+<style>
+	lottie-player {
+		margin: 0 auto;
+		padding-top: 5vh;
+	}
+</style>

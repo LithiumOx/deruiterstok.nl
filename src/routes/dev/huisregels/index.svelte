@@ -2,7 +2,7 @@
 	import { fade } from 'svelte/transition';
 </script>
 
-<div class="bg-base-200 min-h-[80vh] rounded-box p-3 flex flex-wrap justify-center">
+<div class="bg-base-200 min-h-[80vh] rounded-box p-3 mt-4 flex flex-wrap justify-center">
 	<h1 class="font-bold text-base-content flex-nowrap self-center p-3">Huisregels</h1>
 	<ul class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-stretch">
 		<li transition:fade class="flex-wrap">

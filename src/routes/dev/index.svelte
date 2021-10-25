@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="hero min-h-[80vh] rounded-box bg-base-200"
+	class="hero min-h-[80vh] rounded-box bg-base-200 mt-4"
 	style="background-image: url({Background});background-repeat: repeat;"
 >
 	<div class="text-center hero-content">
