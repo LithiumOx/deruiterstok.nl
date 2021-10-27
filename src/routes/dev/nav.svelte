@@ -20,15 +20,13 @@
 
 <!-- content goes here -->
 <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box justify-between">
-	<a href="/dev" class="flex px-2 mx-2 no-underline">
+	<a href="/dev" class="flex px-2 mx-2 ">
 		<img class="h-12 w-12" src={Logo} alt="" />
-		<span class="text-lg text-base-content font-bold text-middle no-underline">
-			De Ruiterstok
-		</span>
+		<span class="text-lg text-base-content font-bold text-middle "> De Ruiterstok </span>
 	</a>
 	<div class="flex-none hidden px-2 mx-2 lg:flex">
 		<div class="flex items-stretch">
-			<a sveltekit:prefetch href="/dev" class="btn btn-ghost btn-md rounded-btn no-underline">
+			<a href="/dev" class="btn btn-ghost btn-md rounded-btn ">
 				{#if $page.path === '/dev'}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -59,11 +57,7 @@
 
 				Home
 			</a>
-			<a
-				sveltekit:prefetch
-				href="/dev/huisregels"
-				class="btn btn-ghost btn-md rounded-btn text-center no-underline"
-			>
+			<a href="/dev/huisregels" class="btn btn-ghost btn-md rounded-btn text-center ">
 				{#if $page.path === '/dev/huisregels'}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -91,11 +85,7 @@
 
 				Huisregels
 			</a>
-			<a
-				sveltekit:prefetch
-				href="/dev/nieuws"
-				class="btn btn-ghost btn-md rounded-btn no-underline"
-			>
+			<a href="/dev/nieuws" class="btn btn-ghost btn-md rounded-btn ">
 				{#if $page.path === '/dev/nieuws'}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -129,11 +119,7 @@
 
 				Nieuws
 			</a>
-			<a
-				sveltekit:prefetch
-				href="/dev/over-ons"
-				class="btn btn-ghost btn-md rounded-btn no-underline"
-			>
+			<a href="/dev/over-ons" class="btn btn-ghost btn-md rounded-btn ">
 				{#if $page.path === '/dev/over-ons'}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -190,7 +176,7 @@
 			class="shadow menu dropdown-content bg-base-100 rounded-box w-52 items-center mt-80"
 		>
 			<li class="mt-2">
-				<a href="/dev" class="btn btn-ghost btn-md rounded-btn no-underline">
+				<a href="/dev" class="btn btn-ghost btn-md rounded-btn ">
 					{#if $page.path === '/dev'}
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -222,11 +208,7 @@
 				</a>
 			</li>
 			<li class="mt-2">
-				<a
-					sveltekit:prefetch
-					href="/dev/huisregels"
-					class="btn btn-ghost btn-md rounded-btn no-underline"
-				>
+				<a href="/dev/huisregels" class="btn btn-ghost btn-md rounded-btn ">
 					{#if $page.path === '/dev/huisregels'}
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -255,11 +237,7 @@
 				</a>
 			</li>
 			<li class="mt-2">
-				<a
-					sveltekit:prefetch
-					href="/dev/nieuws"
-					class="btn btn-ghost btn-md rounded-btn no-underline"
-				>
+				<a href="/dev/nieuws" class="btn btn-ghost btn-md rounded-btn ">
 					{#if $page.path === '/dev/nieuws'}
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -294,11 +272,7 @@
 				</a>
 			</li>
 			<li class="mb-2">
-				<a
-					sveltekit:prefetch
-					href="/dev/over-ons"
-					class="btn btn-ghost btn-md rounded-btn no-underline"
-				>
+				<a href="/dev/over-ons" class="btn btn-ghost btn-md rounded-btn ">
 					{#if $page.path === '/dev/over-ons'}
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
