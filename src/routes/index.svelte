@@ -18,7 +18,7 @@
 				autoplay
 			/>
 			<h1
-				class="mb-10 text-6xl subpixel-antialiased font-black text-transparent  bg-gradient-to-b from-primary to-secondary bg-clip-text decoration-clone"
+				class="mb-5 text-6xl subpixel-antialiased font-black text-transparent bg-gradient-to-b from-primary to-secondary bg-clip-text decoration-clone"
 			>
 				Seizoen<br />2021-2022
 			</h1>
