@@ -14,7 +14,7 @@
 </script>
 
 <!-- content goes here -->
-<div class="justify-between mb-2 shadow-lg navbar bg-neutral text-neutral-content rounded-box">
+<div class="justify-between mb-2.5 shadow-lg navbar bg-neutral text-neutral-content rounded-box">
 	<a href="/" class="flex px-2 mx-2 no-underline">
 		<img class="w-12 h-12" src={Logo} alt="" />
 		<span class="text-lg font-semibold no-underline text-base-content text-middle">

@@ -5,7 +5,7 @@
 </script>
 
 <div
-	class="hero min-h-[80vh] rounded-box bg-base-200 mt-4"
+	class="hero min-h-[80vh] rounded-box bg-base-200"
 	style="background-image: url({Background});background-repeat: repeat;"
 >
 	<div class="card bg-base-100 max-w-[95%] max-h-[95%] p-5">

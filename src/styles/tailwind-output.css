@@ -2760,6 +2760,9 @@ html {
 .mt-10 {
 	margin-top: 2.5rem;
 }
+.mt-2\.5 {
+	margin-top: 0.625rem;
+}
 .inline-block {
 	display: inline-block;
 }

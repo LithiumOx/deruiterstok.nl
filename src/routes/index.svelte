@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="hero min-h-[80vh] rounded-box bg-base-200 mt-4"
+	class="hero min-h-[80vh] rounded-box bg-base-200"
 	style="background-image: url({Background});background-repeat: repeat;"
 >
 	<div class="text-center hero-content">
@@ -12,8 +12,7 @@
 				src="https://assets9.lottiefiles.com/packages/lf20_Z71xVw.json"
 				mode="bounce"
 				background="transparent"
-				speed="1"
-				class="transform -rotate-45 "
+				speed="1.5"
 				loop
 				autoplay
 			/>

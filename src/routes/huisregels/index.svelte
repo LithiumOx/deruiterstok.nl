@@ -1,4 +1,4 @@
-<div class="bg-base-200 min-h-[80vh] rounded-box p-3 mt-4 flex flex-wrap justify-center">
+<div class="bg-base-200 min-h-[80vh] rounded-box p-3 flex flex-wrap justify-center">
 	<h1 class="self-center p-3 text-4xl font-extrabold text-base-content flex-nowrap">Huisregels</h1>
 	<ul class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-stretch">
 		<li class="flex-wrap">
