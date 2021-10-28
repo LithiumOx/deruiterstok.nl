@@ -2796,6 +2796,15 @@ html {
 .h-full {
 	height: 100%;
 }
+.h-1 {
+	height: 0.25rem;
+}
+.h-5 {
+	height: 1.25rem;
+}
+.h-7 {
+	height: 1.75rem;
+}
 .max-h-\[90\%\] {
 	max-height: 90%;
 }
@@ -2857,6 +2866,12 @@ html {
 	width: -webkit-max-content;
 	width: -moz-max-content;
 	width: max-content;
+}
+.w-1 {
+	width: 0.25rem;
+}
+.w-7 {
+	width: 1.75rem;
 }
 .max-w-md {
 	max-width: 28rem;
