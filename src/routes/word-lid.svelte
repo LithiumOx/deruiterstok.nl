@@ -7,9 +7,9 @@
 	class="hero min-h-[80vh] rounded-box bg-base-200 mt-4"
 	style="background-image: url({Background});background-repeat: repeat;"
 >
-	<div class="card bg-base-100 max-w-[95%] max-h-[95%] p-2.5">
-		<h1 class="text-4xl font-extrabold my-2.5 text-center text-base-content">Word nu lid!</h1>
-		<div class="mx-2 space-y-2 mx-2.5 form-control">
+	<div class="card bg-base-100 max-w-[95%] max-h-[95%] p-5">
+		<h1 class="text-4xl font-extrabold text-center text-base-content">Word nu lid!</h1>
+		<div class="space-y-2 form-control">
 			<div>
 				<label class="label">
 					<span class="label-text">Volledige naam</span>
@@ -85,8 +85,8 @@
 				<div class="flex mt-5 space-x-2">
 					<a class="w-1/3 btn" href="/">← Terug</a>
 					<a
-						href="mailto:ruiterstok@outlook.com?subject={Naam}%20{Achternaam}%20wil%20lid%20worden!&body=Naam%3A%20{Naam}%20{Achternaam}%0D%0AGeboortedatum%3A%20{Dag}-{Maand}-{Jaar}%0D%0ATelefoonnummer%3A%200{Nummer}"
-						class="self-end w-2/3 btn btn-primary">Mail ons!</a
+						href="mailto:ruiterstok@outlook.com?subject={Naam}%20{Achternaam}%20wil%20lid%20worden!&body=Naam%3A%20{Naam}%20{Achternaam}%0D%0AGeboortedatum%3A%20{Dag}-{Maand}-{Jaar}%0D%0ATelefoonnummer%3A%20{Nummer}"
+						class="w-2/3 btn btn-primary">Mail ons!</a
 					>
 				</div>
 			</div>
