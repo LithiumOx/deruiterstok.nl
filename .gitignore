@@ -5,3 +5,4 @@ node_modules
 /package
 /Backend
 .env
+/src/styles/tailwind-output.css
