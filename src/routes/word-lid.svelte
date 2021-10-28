@@ -8,7 +8,7 @@
 	class="hero min-h-[80vh] rounded-box bg-base-200"
 	style="background-image: url({Background});background-repeat: repeat;"
 >
-	<div class="card bg-base-100 max-w-[95%] max-h-[95%] p-5">
+	<div class="card bg-base-100 max-w-[95%] p-5">
 		<h1 class="my-5 text-4xl font-extrabold text-center text-base-content">Word nu lid!</h1>
 		<div class="mx-2.5 form-control">
 			<div>
