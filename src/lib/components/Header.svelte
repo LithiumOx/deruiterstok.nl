@@ -1,6 +1,5 @@
 <script>
 	import Logo from './Logo.svg';
-	import { page } from '$app/stores';
 </script>
 
 <div class="z-10 flex-none w-full pt-1 pb-1 navbar bg-neutral text-neutral-content rounded-b-xl">

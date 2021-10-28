@@ -7,7 +7,7 @@
 	class="hero min-h-[80vh] rounded-box bg-base-200 mt-4"
 	style="background-image: url({Background});background-repeat: repeat;"
 >
-	<div class="card bg-base-100 max-w-[90%] max-h-[90%] p-10">
+	<div class="card bg-base-100 max-w-[95%] max-h-[95%] p-10">
 		<a class="w-1/5 btn btn-ghost" href="/">← Terug</a>
 		<h1 class="text-4xl font-extrabold mb-2.5 text-center text-base-content">Word nu lid!</h1>
 		<div class="my-2 alert alert-info">
@@ -52,21 +52,21 @@
 					<input
 						placeholder="01"
 						maxlength="2"
-						type="number"
+						type="tel"
 						class="w-1/3 input input-primary"
 						bind:value={Dag}
 					/>
 					<input
 						placeholder="02"
 						maxlength="2"
-						type="number"
+						type="tel"
 						class="w-1/3 input input-primary"
 						bind:value={Maand}
 					/>
 					<input
 						placeholder="2000"
 						maxlength="4"
-						type="number"
+						type="tel"
 						class="w-1/3 input input-primary"
 						bind:value={Jaar}
 					/>
@@ -77,7 +77,7 @@
 					</label>
 					<input
 						placeholder="0612345678"
-						type="number"
+						type="tel"
 						maxlength="10"
 						class="w-full input input-primary"
 						bind:value={Nummer}
