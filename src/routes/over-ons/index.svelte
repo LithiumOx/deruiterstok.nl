@@ -7,7 +7,7 @@
 		loop
 		autoplay
 	/>
-	<h1 class="font-bold text-base-content pt-12">Wordt nog aan gewerkt!</h1>
+	<h1 class="pt-12 text-4xl font-bold text-center text-base-content">Wordt nog aan gewerkt!</h1>
 </div>
 
 <style>

@@ -1,19 +1,15 @@
-<script>
-	import { fade } from 'svelte/transition';
-</script>
-
 <div class="bg-base-200 min-h-[80vh] rounded-box p-3 mt-4 flex flex-wrap justify-center">
-	<h1 class="font-bold text-base-content flex-nowrap self-center p-3">Huisregels</h1>
-	<ul class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-stretch">
-		<li transition:fade class="flex-wrap">
+	<h1 class="self-center p-3 text-4xl font-extrabold text-base-content flex-nowrap">Huisregels</h1>
+	<ul class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-stretch">
+		<li class="flex-wrap">
 			• <p>Wij schenken alleen alcohol aan 18 jaar en ouder.</p>
-			<div class="alert alert-warning items-start">
+			<div class="items-start alert alert-warning">
 				<div class="flex-1">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
-						class="w-9 h-9 mx-2  stroke-current"
+						class="w-6 h-6 mx-2 stroke-current"
 					>
 						<path
 							stroke-linecap="round"
@@ -32,13 +28,13 @@
 		</li>
 		<li class="flex-wrap">
 			• <p>Roken is binnen niet toegestaan.</p>
-			<div class="alert alert-info items-start">
+			<div class="items-start alert alert-info">
 				<div class="flex-1">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
-						class="w-8 h-8  mx-2 stroke-current"
+						class="w-6 h-6 mx-2 stroke-current"
 					>
 						<path
 							stroke-linecap="round"
@@ -105,13 +101,13 @@
 			• <p>Op vrijdag geldt een minimale leeftijd van 16 jaar.</p>
 		</li>
 	</ul>
-	<div class="alert alert-error p-2  self-end">
-		<div class="flex-1 font-bold items-center">
+	<div class="self-end p-2 alert alert-error">
+		<div class="items-center flex-1 font-bold">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
 				viewBox="0 0 24 24"
-				class="w-14 h-14 mx-2 stroke-current animate-pulse"
+				class="mx-2 stroke-current w-14 h-14 animate-pulse"
 			>
 				<path
 					stroke-linecap="round"
@@ -135,11 +131,13 @@
 		@apply p-2;
 	}
 	li {
-		@apply flex m-0.5 p-2 px-2 max-w-xl text-left font-black text-primary text-2xl bg-base-300 inset-0 border-2 transition duration-300 align-middle border-base-300 hover:border-primary ease-in rounded-box items-center;
+		@apply flex m-0.5 p-2 px-2 max-w-xl text-left font-black text-primary text-2xl bg-neutral-focus border-2 transition duration-300 border-base-300 hover:border-primary rounded-box items-center;
 	}
+
 	p {
-		@apply first:text-xs ml-2 text-xl font-light text-base-content hover:font-medium subpixel-antialiased align-middle;
+		@apply ml-2 text-xs font-light text-base-content subpixel-antialiased;
 	}
+
 	label {
 		@apply text-xs subpixel-antialiased break-all align-middle;
 	}

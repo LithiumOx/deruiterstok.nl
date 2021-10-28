@@ -1,5 +1,5 @@
 <script>
-	import Logo from '../assets/Logo.svg';
+	import Logo from '../Logo.svg';
 </script>
 
 <footer class="p-7 footer bg-neutral text-neutral-content rounded-box  mt-5  bottom-0">

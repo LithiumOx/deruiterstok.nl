@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 
-	import Logo from '../assets/Logo.svg';
+	import Logo from '../Logo.svg';
 	onMount(() => {
 		const btn = document.querySelector('button.mobile-menu-button');
 		const menu = document.querySelector('.mobile-menu');
@@ -15,7 +15,7 @@
 
 <!-- content goes here -->
 <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box justify-between">
-	<a href="/dev" class="flex px-2 mx-2 no-underline">
+	<a href="/" class="flex px-2 mx-2 no-underline">
 		<img class="h-12 w-12" src={Logo} alt="" />
 		<span class="text-lg text-base-content font-bold text-middle no-underline">
 			De Ruiterstok
@@ -23,37 +23,39 @@
 	</a>
 	<div class="flex-none hidden px-2 mx-2 lg:flex">
 		<div class="flex items-stretch">
-			<a sveltekit:prefetch href="/dev" class="btn btn-ghost btn-md rounded-btn no-underline">
-				{#if $page.path === '/dev'}
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="inline-block w-5 mr-2 stroke-current"
-						viewBox="0 0 20 20"
-						fill="currentColor"
-					>
-						<path
-							d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"
-						/>
-					</svg>
-				{:else}
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="inline-block w-5 mr-2 stroke-current"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-						/>
-					</svg>
-				{/if}
+			<button class="btn btn-ghost btn-md rounded-btn"
+				><a sveltekit:prefetch href="/" class="no-underline">
+					{#if $page.path === '/'}
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="inline-block w-5 mr-2 stroke-current"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+						>
+							<path
+								d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"
+							/>
+						</svg>
+					{:else}
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="inline-block w-5 mr-2 stroke-current"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+							/>
+						</svg>
+					{/if}
 
-				Home
-			</a>
+					<span class="no-underline">Home</span>
+				</a></button
+			>
 			<a
 				sveltekit:prefetch
 				href="/huisregels"
@@ -177,8 +179,8 @@
 			class="shadow menu dropdown-content bg-base-100 rounded-box w-52 items-center mt-80"
 		>
 			<li class="mt-2">
-				<a href="/dev" class="btn btn-ghost btn-md rounded-btn no-underline">
-					{#if $page.path === '/dev'}
+				<a href="/" class="btn btn-ghost btn-md rounded-btn no-underline">
+					{#if $page.path === '/'}
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="inline-block w-5 mr-2 stroke-current"
