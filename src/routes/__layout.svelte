@@ -1,13 +1,17 @@
-<script lang="ts">
-	import '../app.postcss';
+<script lang="typescript">
+	import Nav from '$lib/components/public/nav.svelte';
+	import Footer from '$lib/components/public/footer.svelte';
+	import '../styles/tailwind-output.css';
 </script>
 
 <main>
+	<Nav />
 	<slot />
+	<Footer />
 </main>
 
-<style global>
+<style>
 	main {
-		@apply bg-neutral;
+		@apply p-2;
 	}
 </style>

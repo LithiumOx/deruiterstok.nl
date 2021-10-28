@@ -1,104 +1,36 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
-
 <script>
-	import Logo from '../assets/Logo.svg';
 	import Background from '../assets/topography.svg';
 </script>
 
-<svelte:head>
-	<title>De Ruiterstok</title>
-</svelte:head>
-
-<div class="hero min-h-screen bg-base-100" style="background-image: url({Background});">
-	<div class="hero-overlay bg-opacity-60" />
-	<div class="text-center hero-content text-neutral-content">
-		<div class="max-w-sm">
-			<img src={Logo} alt="" />
-			<h1 class="mb-2.5 text-5xl font-bold text-neutral-content">De Ruiterstok</h1>
-			<p class="mb-5 text-neutral-content">
-				Organisatie in het belang van de jeugd uit Schermerhorn. <br /><br /> Volg onze social media
-				voor updates over het nieuwe seizoen en de uitbouw van de site! 👇
-			</p>
-			<div
-				class="rounded-box bg-base-content border-4 border-base-200 text-base-content flex justify-center p-2.5"
+<div
+	class="hero min-h-[80vh] rounded-box bg-base-200 mt-4"
+	style="background-image: url({Background});background-repeat: repeat;"
+>
+	<div class="text-center hero-content">
+		<div class="max-w-md">
+			<lottie-player
+				src="https://assets9.lottiefiles.com/packages/lf20_Z71xVw.json"
+				mode="bounce"
+				background="transparent"
+				speed="1"
+				class="transform -rotate-45 "
+				loop
+				autoplay
+			/>
+			<h1
+				class="mb-10 text-6xl subpixel-antialiased font-black text-transparent  bg-gradient-to-b from-primary to-secondary bg-clip-text decoration-clone"
 			>
-				<a
-					class="flex items-center link link-neutral no-underline hover:no-underline"
-					href="https://www.instagram.com/deruiterstok/"
-					><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3364.7 3364.7" class="w-5"
-						><defs
-							><radialGradient
-								id="0"
-								cx="217.76"
-								cy="3290.99"
-								r="4271.92"
-								gradientUnits="userSpaceOnUse"
-								><stop offset=".09" stop-color="#fa8f21" /><stop
-									offset=".78"
-									stop-color="#d82d7e"
-								/></radialGradient
-							><radialGradient
-								id="1"
-								cx="2330.61"
-								cy="3182.95"
-								r="3759.33"
-								gradientUnits="userSpaceOnUse"
-								><stop offset=".64" stop-color="#8c3aaa" stop-opacity="0" /><stop
-									offset="1"
-									stop-color="#8c3aaa"
-								/></radialGradient
-							></defs
-						><path
-							d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9"
-							fill="url(#0)"
-						/><path
-							d="M853.2,3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5S119.7,2988.6,82.6,2892.8c-28.2-72.3-61.5-181-70.6-381.1C2,2295.4,0,2230.5,0,1682.5s2.2-612.8,11.9-829.3C21,653.1,54.5,544.6,82.5,472.1,119.8,376.3,164.3,308,236,236c71.8-71.8,140.1-116.4,236-153.5C544.3,54.3,653,21,853.1,11.9,1069.5,2,1134.5,0,1682.3,0c548,0,612.8,2.2,829.3,11.9,200.1,9.1,308.6,42.6,381.1,70.6,95.8,37.1,164.1,81.7,236,153.5s116.2,140.2,153.5,236c28.2,72.3,61.5,181,70.6,381.1,9.9,216.5,11.9,281.3,11.9,829.3,0,547.8-2,612.8-11.9,829.3-9.1,200.1-42.6,308.8-70.6,381.1-37.3,95.8-81.7,164.1-153.5,235.9s-140.2,116.2-236,153.5c-72.3,28.2-181,61.5-381.1,70.6-216.3,9.9-281.3,11.9-829.3,11.9-547.8,0-612.8-1.9-829.1-11.9"
-							fill="url(#1)"
-						/><path
-							d="M1269.25,1689.52c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7-416.6-186.59-416.6-416.7m-225.26,0c0,354.5,287.36,641.86,641.86,641.86s641.86-287.36,641.86-641.86-287.36-641.86-641.86-641.86S1044,1335,1044,1689.52m1159.13-667.31a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M1180.85,2707c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27S2059.13,666,2191,672c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M1170.5,447.09c-133.07,6.06-224,27.16-303.41,58.06-82.19,31.91-151.86,74.72-221.43,144.18S533.39,788.47,501.48,870.76c-30.9,79.46-52,170.34-58.06,303.41-6.16,133.28-7.57,175.89-7.57,515.35s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43s139.14,112.18,221.43,144.18c79.56,30.9,170.34,52,303.41,58.06,133.35,6.06,175.89,7.57,515.35,7.57s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2586.8,537.06,2504.71,505.15c-79.56-30.9-170.44-52.1-303.41-58.06C2068,441,2025.41,439.52,1686,439.52s-382.1,1.41-515.45,7.57"
-							fill="#fff"
-						/></svg
-					><span class="ml-2 mr-4">Instagram</span></a
-				>
-				<a
-					class="flex items-center link link-neutral no-underline hover:no-underline"
-					href="https://nl-nl.facebook.com/Ruiterstokkie/"
-					><svg
-						class="w-5"
-						xmlns="http://www.w3.org/2000/svg"
-						xmlns:xlink="http://www.w3.org/1999/xlink"
-						viewBox="0 0 256 256"
-						version="1.1"
-						preserveAspectRatio="xMidYMid"
-					>
-						<g>
-							<path
-								d="M241.871,256.001 C249.673,256.001 256,249.675 256,241.872 L256,14.129 C256,6.325 249.673,0 241.871,0 L14.129,0 C6.324,0 0,6.325 0,14.129 L0,241.872 C0,249.675 6.324,256.001 14.129,256.001 L241.871,256.001"
-								fill="#395185"
-							/>
-							<path
-								d="M176.635,256.001 L176.635,156.864 L209.912,156.864 L214.894,118.229 L176.635,118.229 L176.635,93.561 C176.635,82.375 179.742,74.752 195.783,74.752 L216.242,74.743 L216.242,40.188 C212.702,39.717 200.558,38.665 186.43,38.665 C156.932,38.665 136.738,56.67 136.738,89.736 L136.738,118.229 L103.376,118.229 L103.376,156.864 L136.738,156.864 L136.738,256.001 L176.635,256.001"
-								fill="#FFFFFF"
-							/>
-						</g>
-					</svg><span class="ml-2 text-base-200 mr-4">Facebook</span></a
-				>
-				<a
-					class="flex items-center link link-neutral no-underline hover:no-underline"
-					href="https://discord.gg/GPTJh9xws9"
-					><svg
-						xmlns="http://www.w3.org/2000/svg"
-						viewBox="-10.63 -.07077792 823.87 610.06955549"
-						class="w-6"
-						><path
-							d="m678.27 51.62c90.35 132.84 134.97 282.68 118.29 455.18-.07.73-.45 1.4-1.05 1.84-68.42 50.24-134.71 80.73-200.07 100.95a2.55 2.55 0 0 1 -2.81-.95c-15.1-21.01-28.82-43.16-40.84-66.42-.69-1.37-.06-3.02 1.36-3.56 21.79-8.21 42.51-18.05 62.44-29.7 1.57-.92 1.67-3.17.22-4.25-4.23-3.14-8.42-6.44-12.43-9.74-.75-.61-1.76-.73-2.61-.32-129.39 59.75-271.13 59.75-402.05 0-.85-.38-1.86-.25-2.59.35-4 3.3-8.2 6.57-12.39 9.71-1.45 1.08-1.33 3.33.25 4.25 19.93 11.43 40.65 21.49 62.41 29.74 1.41.54 2.08 2.15 1.38 3.52-11.76 23.29-25.48 45.44-40.86 66.45-.67.85-1.77 1.24-2.81.92-65.05-20.22-131.34-50.71-199.76-100.95-.57-.44-.98-1.14-1.04-1.87-13.94-149.21 14.47-300.29 118.18-455.18.25-.41.63-.73 1.07-.92 51.03-23.42 105.7-40.65 162.84-50.49 1.04-.16 2.08.32 2.62 1.24 7.06 12.5 15.13 28.53 20.59 41.63 60.23-9.2 121.4-9.2 182.89 0 5.46-12.82 13.25-29.13 20.28-41.63a2.47 2.47 0 0 1 2.62-1.24c57.17 9.87 111.84 27.1 162.83 50.49.45.19.82.51 1.04.95zm-339.04 283.7c.63-44.11-31.53-80.61-71.9-80.61-40.04 0-71.89 36.18-71.89 80.61 0 44.42 32.48 80.6 71.89 80.6 40.05 0 71.9-36.18 71.9-80.6zm265.82 0c.63-44.11-31.53-80.61-71.89-80.61-40.05 0-71.9 36.18-71.9 80.61 0 44.42 32.48 80.6 71.9 80.6 40.36 0 71.89-36.18 71.89-80.6z"
-							fill="#5865f2"
-						/></svg
-					> <span class="ml-2 text-base-200">Discord</span></a
-				>
-			</div>
+				Seizoen<br />2021-2022
+			</h1>
+			<p class="mb-5 subpixel-antialiased align-middle text-base-content">
+				Het nieuwe seizoen is begonnen, 2021-2022! En jeetje wat zijn we trots dat we na 1.5 jaar
+				mogen zeggen dat we weer een te gek aantal ruiterstokkers hebben! Ongeveer 40 jongeren mogen
+				zich een heuse Ruiterstokker noemen.<br /><br /> Doordat we weinig open zijn geweest door de
+				welbekende Corona, hebben we onze reeds bestaande leden de kans gegeven om het lidmaatschap kosteloos
+				door te trekken naar het nieuwe seizoen. Maar natuurlijk is een (vrijwillige) bijdrage voor de
+				vereniging meer dan welkom. Immers had je normaliter ook weer lid moeten worden.
+			</p>
+			<a href="/word-lid" class="mb-5 subpixel-antialiased btn btn-primary">Word lid!</a>
 		</div>
 	</div>
 </div>
