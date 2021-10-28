@@ -1,9 +1,9 @@
 <script>
-	import Logo from '../../assets/Logo.svg';
+	import Logo from './Logo.svg';
 	import { page } from '$app/stores';
 </script>
 
-<div class="navbar flex-none w-full pb-1 pt-1 bg-neutral text-neutral-content z-10 rounded-b-xl">
+<div class="z-10 flex-none w-full pt-1 pb-1 navbar bg-neutral text-neutral-content rounded-b-xl">
 	<div class="flex-none">
 		<a href="/app"
 			><label for="mobile-drawer" class="btn btn-circle btn-ghost drawer-button"
@@ -17,7 +17,7 @@
 			<a href="/app/profile"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="h-6 w-6"
+					class="w-6 h-6"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"
