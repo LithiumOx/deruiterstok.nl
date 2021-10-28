@@ -139,6 +139,6 @@
 	}
 
 	label {
-		@apply text-xs subpixel-antialiased break-all align-middle;
+		@apply text-xs subpixel-antialiased break-words align-middle;
 	}
 </style>
