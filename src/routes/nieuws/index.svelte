@@ -10,6 +10,12 @@
 	<h1 class="pt-12 text-4xl font-bold text-center text-base-content">Wordt nog aan gewerkt!</h1>
 </div>
 
+<svelte:head>
+	<title>Ruiterstok/nieuws</title>
+	<meta name="description" content="Nieuws over De Ruiterstok" />
+	<meta name="keywords" content="Bestuur, Vereniging, Leiding, Vrijwilligers, Jeugd" />
+</svelte:head>
+
 <style>
 	lottie-player {
 		margin: 0 auto;

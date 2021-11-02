@@ -126,6 +126,12 @@
 	</div>
 </div>
 
+<svelte:head>
+	<title>Ruiterstok/huisregels</title>
+	<meta name="description" content="Huisregels van De Ruiterstok." />
+	<meta name="keywords" content="Regels, Bestuur, Vereniging" />
+</svelte:head>
+
 <style>
 	ul {
 		@apply p-2;
@@ -135,7 +141,7 @@
 	}
 
 	p {
-		@apply ml-2 text-xs font-light text-base-content subpixel-antialiased;
+		@apply ml-2 text-sm font-light text-base-content subpixel-antialiased;
 	}
 
 	label {

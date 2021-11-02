@@ -157,6 +157,7 @@
 
 				Over ons
 			</a>
+			<a href="/word-lid" class="ml-2.5 subpixel-antialiased btn btn-primary">Word lid!</a>
 		</div>
 	</div>
 
@@ -318,6 +319,7 @@
 					Over ons
 				</a>
 			</li>
+			<li><a href="/word-lid" class="mb-2 subpixel-antialiased btn btn-primary">Word lid!</a></li>
 		</ul>
 	</div>
 </div>

@@ -1,5 +1,10 @@
 <script>
-	export let Naam, Achternaam, Dag, Maand, Jaar, Nummer;
+	export let Naam = '',
+		Achternaam = '',
+		Dag = '',
+		Maand = '',
+		Jaar = '',
+		Nummer = '';
 	import Background from '../assets/topography.svg';
 	import Tikkie from '$lib/components/tikkie-1.svg';
 </script>
@@ -16,10 +21,14 @@
 					<span class="label-text">Volledige naam</span>
 				</label>
 				<div class="flex space-x-2">
-					<input placeholder="Voornaam" class="w-1/2 input input-primary" bind:value={Naam} />
+					<input
+						placeholder="Voornaam"
+						class="w-1/2 block focus:placeholder-transparent text-center input input-primary"
+						bind:value={Naam}
+					/>
 					<input
 						placeholder="Achternaam"
-						class="w-1/2 input input-primary"
+						class="w-1/2 block focus:placeholder-transparent text-center input input-primary"
 						bind:value={Achternaam}
 					/>
 				</div>
@@ -33,21 +42,21 @@
 						placeholder="01"
 						maxlength="2"
 						type="tel"
-						class="w-1/3 input input-primary"
+						class="w-1/3 block focus:placeholder-transparent text-center input input-primary"
 						bind:value={Dag}
 					/>
 					<input
 						placeholder="02"
 						maxlength="2"
 						type="tel"
-						class="w-1/3 input input-primary"
+						class="w-1/3 block focus:placeholder-transparent text-center input input-primary"
 						bind:value={Maand}
 					/>
 					<input
 						placeholder="2000"
 						maxlength="4"
 						type="tel"
-						class="w-1/3 input input-primary"
+						class="w-1/3 block focus:placeholder-transparent text-center input input-primary"
 						bind:value={Jaar}
 					/>
 				</div>
@@ -59,7 +68,7 @@
 						placeholder="0612345678"
 						type="tel"
 						maxlength="10"
-						class="w-full input input-primary"
+						class="w-full block focus:placeholder-transparent text-center input input-primary"
 						bind:value={Nummer}
 					/>
 				</div>
@@ -83,6 +92,12 @@
 		</div>
 	</div>
 </div>
+
+<svelte:head>
+	<title>Ruiterstok/word-lid</title>
+	<meta name="description" content="Word nu lid van De Ruiterstok!" />
+	<meta name="keywords" content="Leden, Aanmelden, Jeugd Vereniging" />
+</svelte:head>
 
 <style>
 	label {

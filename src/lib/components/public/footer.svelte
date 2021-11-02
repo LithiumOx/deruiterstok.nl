@@ -6,7 +6,7 @@
 	<div>
 		<img class="w-16 h-16" src={Logo} alt="" />
 		<p class="text-base-content">
-			Jeugd Vereneging De Ruiterstok
+			J.V. De Ruiterstok
 			<br />Organisatie in het belang van de jeugd uit Schermerhorn
 		</p>
 	</div>

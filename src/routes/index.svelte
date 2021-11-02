@@ -6,18 +6,19 @@
 	class="hero min-h-[80vh] rounded-box bg-base-200"
 	style="background-image: url({Background});background-repeat: repeat;"
 >
-	<div class="text-center hero-content">
+	<div class="text-center place-items-center hero-content">
 		<div class="max-w-md">
 			<lottie-player
 				src="https://assets9.lottiefiles.com/packages/lf20_Z71xVw.json"
 				mode="bounce"
+				class="w-48 h-48 transform -rotate-45 mt-5 z-10 center"
 				background="transparent"
 				speed="1.5"
 				loop
 				autoplay
 			/>
 			<h1
-				class="mb-5 text-6xl subpixel-antialiased font-black text-transparent bg-gradient-to-b from-primary to-secondary bg-clip-text decoration-clone"
+				class="mb-5 text-6xl first-line:text-7xl subpixel-antialiased font-black text-transparent bg-gradient-to-b from-primary to-secondary bg-clip-text decoration-clone"
 			>
 				Seizoen<br />2021-2022
 			</h1>
@@ -33,3 +34,15 @@
 		</div>
 	</div>
 </div>
+
+<svelte:head>
+	<title>Ruiterstok/home</title>
+	<meta
+		name="description"
+		content="J.V. De Ruiterstok - Organisatie in het belang van de jeugd uit Schermerhorn"
+	/>
+	<meta
+		name="keywords"
+		content="Jeugd, Vereniging, De Ruiterstok, Ruiterstok, deruiterstok.nl, Schermerhorn"
+	/>
+</svelte:head>
