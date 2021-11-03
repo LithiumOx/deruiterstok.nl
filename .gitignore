@@ -5,4 +5,5 @@ node_modules
 /package
 /Backend
 .env
+yarn-error.log
 /src/styles
