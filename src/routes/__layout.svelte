@@ -1,7 +1,7 @@
 <script lang="typescript">
 	import Nav from '$lib/components/public/nav.svelte';
 	import Footer from '$lib/components/public/footer.svelte';
-	import '../styles/tailwind-output.css';
+	import '../app.css';
 </script>
 
 <main>

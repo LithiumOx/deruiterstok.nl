@@ -1,5 +1,13 @@
-<div class="bg-base-200 rounded-box flex-wrap min-h-[80vh]">
-	<lottie-player
+<script>
+	import Content from './nieuwsbrief-16-feb.svelte';
+	import Background from '../../assets/topography.svg';
+</script>
+
+<div
+	class="rounded-box flex-wrap bg-base-200 min-h-[80vh] p-2.5 md:p-5 self-center"
+	style="background-image: url({Background});background-repeat: repeat;"
+>
+	<!-- <lottie-player
 		src="https://assets7.lottiefiles.com/private_files/lf30_ot4mddw5.json"
 		background="transparent"
 		speed="1"
@@ -7,7 +15,12 @@
 		loop
 		autoplay
 	/>
-	<h1 class="pt-12 text-4xl font-bold text-center text-base-content">Wordt nog aan gewerkt!</h1>
+	<h1 class="font-bold text-center text-base-content pt-12 text-4xl">Wordt nog aan gewerkt!</h1> -->
+
+	<!-- <div class="flex-grow prose">
+		<h1>Nieuwsbrieven</h1>
+	</div> -->
+	<div class="flex-grow-0"><Content /></div>
 </div>
 
 <svelte:head>
@@ -17,8 +30,8 @@
 </svelte:head>
 
 <style>
-	lottie-player {
-		margin: 0 auto;
+	/* text- auto lottie-player
+		margin: 0 ;
 		padding-top: 5vh;
-	}
+	}  */
 </style>

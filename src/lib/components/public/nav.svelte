@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 
-	import Logo from '../Logo.svg';
+	import Logo from './Logo.svg';
 	onMount(() => {
 		const btn = document.querySelector('button.mobile-menu-button');
 		const menu = document.querySelector('.mobile-menu');
@@ -14,24 +14,24 @@
 </script>
 
 <!-- content goes here -->
-<div class="justify-between mb-2.5 shadow-lg navbar bg-neutral text-neutral-content rounded-box">
-	<a href="/" class="flex px-2 mx-2 no-underline">
-		<img class="w-12 h-12" src={Logo} alt="" />
-		<span class="text-lg font-semibold no-underline text-base-content text-middle">
+<div class="bg-neutral rounded-box shadow-lg text-neutral-content mb-2.5 justify-between navbar">
+	<a href="/" class="flex mx-2 px-2 no-underline">
+		<img class="h-12 w-12" src={Logo} alt="" />
+		<span class="font-semibold text-lg text-base-content text-middle no-underline">
 			De Ruiterstok
 		</span>
 	</a>
-	<div class="flex-none hidden px-2 mx-2 lg:flex">
+	<div class="flex-none mx-2 px-2 hidden lg:flex">
 		<div class="flex items-stretch">
 			<a
 				sveltekit:prefetch
 				href="/"
-				class="text-center no-underline btn btn-ghost btn-md rounded-btn"
+				class="rounded-btn text-center no-underline btn btn-ghost btn-md"
 			>
-				{#if $page.path === '/'}
+				{#if $page.url.pathname === '/'}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="inline-block w-5 mr-2 stroke-current"
+						class="stroke-current mr-2 w-5 inline-block"
 						viewBox="0 0 20 20"
 						fill="currentColor"
 					>
@@ -42,7 +42,7 @@
 				{:else}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="inline-block w-5 mr-2 stroke-current"
+						class="stroke-current mr-2 w-5 inline-block"
 						fill="none"
 						viewBox="0 0 24 24"
 						stroke="currentColor"
@@ -61,12 +61,12 @@
 			<a
 				sveltekit:prefetch
 				href="/huisregels"
-				class="text-center no-underline btn btn-ghost btn-md rounded-btn"
+				class="rounded-btn text-center no-underline btn btn-ghost btn-md"
 			>
-				{#if $page.path === '/huisregels'}
+				{#if $page.url.pathname === '/huisregels'}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="inline-block w-5 mr-2 stroke-current"
+						class="stroke-current mr-2 w-5 inline-block"
 						viewBox="0 0 20 20"
 						fill="currentColor"
 					>
@@ -77,7 +77,7 @@
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
-						class="inline-block w-5 mr-2 stroke-current"
+						class="stroke-current mr-2 w-5 inline-block"
 					>
 						<path
 							stroke-linecap="round"
@@ -90,11 +90,12 @@
 
 				Huisregels
 			</a>
-			<a sveltekit:prefetch href="/nieuws" class="no-underline btn btn-ghost btn-md rounded-btn">
-				{#if $page.path === '/nieuws'}
+
+			<a sveltekit:prefetch href="/nieuws" class="rounded-btn no-underline btn btn-ghost btn-md">
+				{#if $page.url.pathname === '/nieuws'}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="inline-block w-5 mr-2 stroke-current"
+						class="stroke-current mr-2 w-5 inline-block"
 						viewBox="0 0 20 20"
 						fill="currentColor"
 					>
@@ -108,7 +109,7 @@
 				{:else}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="inline-block w-5 mr-2 stroke-current"
+						class="stroke-current mr-2 w-5 inline-block"
 						fill="none"
 						viewBox="0 0 24 24"
 						stroke="currentColor"
@@ -124,11 +125,11 @@
 
 				Nieuws
 			</a>
-			<a sveltekit:prefetch href="/over-ons" class="no-underline btn btn-ghost btn-md rounded-btn">
-				{#if $page.path === '/over-ons'}
+			<a sveltekit:prefetch href="/over-ons" class="rounded-btn no-underline btn btn-ghost btn-md">
+				{#if $page.url.pathname === '/over-ons'}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="inline-block w-5 mr-2 stroke-current"
+						class="stroke-current mr-2 w-5 inline-block"
 						viewBox="0 0 20 20"
 						fill="currentColor"
 					>
@@ -141,7 +142,7 @@
 				{:else}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="inline-block w-5 mr-2 stroke-current"
+						class="stroke-current mr-2 w-5 inline-block"
 						fill="none"
 						viewBox="0 0 24 24"
 						stroke="currentColor"
@@ -162,12 +163,12 @@
 	</div>
 
 	<div class="flex-none dropdown dropdown-end lg:hidden">
-		<div tabindex="0" class="btn btn-ghost rounded-btn">
+		<div tabindex="0" class="rounded-btn btn btn-ghost">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
 				viewBox="0 0 24 24"
-				class="inline-block w-6 h-6 stroke-current"
+				class="h-6 stroke-current w-6 inline-block"
 			>
 				<path
 					stroke-linecap="round"
@@ -179,14 +180,14 @@
 		</div>
 		<ul
 			tabindex="0"
-			class="items-center shadow menu dropdown-content bg-base-100 rounded-box w-52 mt-80"
+			class="rounded-box bg-base-100 shadow mt-80 w-52 items-center menu dropdown-content"
 		>
 			<li class="mt-2">
-				<a href="/" class="no-underline btn btn-ghost btn-md rounded-btn">
-					{#if $page.path === '/'}
+				<a href="/" class="rounded-btn no-underline btn btn-ghost btn-md">
+					{#if $page.url.pathname === '/'}
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="inline-block w-5 mr-2 stroke-current"
+							class="stroke-current mr-2 w-5 inline-block"
 							viewBox="0 0 20 20"
 							fill="currentColor"
 						>
@@ -197,7 +198,7 @@
 					{:else}
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="inline-block w-5 mr-2 stroke-current"
+							class="stroke-current mr-2 w-5 inline-block"
 							fill="none"
 							viewBox="0 0 24 24"
 							stroke="currentColor"
@@ -217,12 +218,12 @@
 				<a
 					sveltekit:prefetch
 					href="/huisregels"
-					class="no-underline btn btn-ghost btn-md rounded-btn"
+					class="rounded-btn no-underline btn btn-ghost btn-md"
 				>
-					{#if $page.path === '/huisregels'}
+					{#if $page.url.pathname === '/huisregels'}
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="inline-block w-5 mr-2 stroke-current"
+							class="stroke-current mr-2 w-5 inline-block"
 							viewBox="0 0 20 20"
 							fill="currentColor"
 						>
@@ -233,7 +234,7 @@
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
-							class="inline-block w-5 mr-2 stroke-current"
+							class="stroke-current mr-2 w-5 inline-block"
 						>
 							<path
 								stroke-linecap="round"
@@ -247,11 +248,11 @@
 				</a>
 			</li>
 			<li class="mt-2">
-				<a sveltekit:prefetch href="/nieuws" class="no-underline btn btn-ghost btn-md rounded-btn">
-					{#if $page.path === '/nieuws'}
+				<a sveltekit:prefetch href="/nieuws" class="rounded-btn no-underline btn btn-ghost btn-md">
+					{#if $page.url.pathname === '/nieuws'}
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="inline-block w-5 mr-2 stroke-current"
+							class="stroke-current mr-2 w-5 inline-block"
 							viewBox="0 0 20 20"
 							fill="currentColor"
 						>
@@ -265,7 +266,7 @@
 					{:else}
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="inline-block w-5 mr-2 stroke-current"
+							class="stroke-current mr-2 w-5 inline-block"
 							fill="none"
 							viewBox="0 0 24 24"
 							stroke="currentColor"
@@ -285,12 +286,12 @@
 				<a
 					sveltekit:prefetch
 					href="/over-ons"
-					class="no-underline btn btn-ghost btn-md rounded-btn"
+					class="rounded-btn no-underline btn btn-ghost btn-md"
 				>
-					{#if $page.path === '/over-ons'}
+					{#if $page.url.pathname === '/over-ons'}
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="inline-block w-5 mr-2 stroke-current"
+							class="stroke-current mr-2 w-5 inline-block"
 							viewBox="0 0 20 20"
 							fill="currentColor"
 						>
@@ -303,7 +304,7 @@
 					{:else}
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="inline-block w-5 mr-2 stroke-current"
+							class="stroke-current mr-2 w-5 inline-block"
 							fill="none"
 							viewBox="0 0 24 24"
 							stroke="currentColor"

@@ -7,11 +7,11 @@
 </script>
 
 <ul
-	class="menu justify-center flex-none w-full horizontal bg-neutral fixed bottom-0 z-10 pb-1 pt-1 rounded-t-xl"
+	class="bg-neutral rounded-t-xl flex-none w-full pt-1 pb-1 bottom-0 z-10 menu justify-center horizontal fixed"
 >
 	<li>
 		<a href="/app/calendar" sveltekit:prefetch
-			>{#if $page.path === '/app/calendar'}
+			>{#if $page.url.pathname === '/app/calendar'}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="h-6 w-6"
@@ -44,7 +44,7 @@
 	</li>
 	<li>
 		<a href="/app" sveltekit:prefetch>
-			{#if $page.path === '/app'}
+			{#if $page.url.pathname === '/app'}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="h-6 w-6"
@@ -75,7 +75,7 @@
 	</li>
 	<li>
 		<a href="/app/news" sveltekit:prefetch
-			>{#if $page.path === '/app/news'}
+			>{#if $page.url.pathname === '/app/news'}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="h-6 w-6"
@@ -109,7 +109,7 @@
 	</li>
 	<li>
 		<a href="/app/qrscanner" sveltekit:prefetch
-			>{#if $page.path === '/app/profile'}
+			>{#if $page.url.pathname === '/app/profile'}
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="h-6 w-6"

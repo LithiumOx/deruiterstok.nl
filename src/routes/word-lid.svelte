@@ -6,7 +6,6 @@
 		Jaar = '',
 		Nummer = '';
 	import Background from '../assets/topography.svg';
-	import Tikkie from '$lib/components/tikkie-1.svg';
 </script>
 
 <div
@@ -74,7 +73,6 @@
 				</div>
 				<div class="mt-10 alert alert-info">
 					<div class="flex-1">
-						<img src={Tikkie} class="self-center mx-2 w-7 h-7" />
 						<label
 							>Wanneer wij de mail ontvangen sturen we je zo spoedig mogelijk een tikkie terug!</label
 						>

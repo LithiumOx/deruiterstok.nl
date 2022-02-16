@@ -1,8 +1,8 @@
 <script>
-	import Logo from './Logo.svg';
+	import Logo from '../public/Logo.svg';
 </script>
 
-<div class="z-10 flex-none w-full pt-1 pb-1 navbar bg-neutral text-neutral-content rounded-b-xl">
+<div class="bg-neutral rounded-b-xl flex-none text-neutral-content w-full pt-1 pb-1 z-10 navbar">
 	<div class="flex-none">
 		<a href="/app"
 			><label for="mobile-drawer" class="btn btn-circle btn-ghost drawer-button"
@@ -10,13 +10,13 @@
 			></a
 		>
 	</div>
-	<div class="flex-1 px-2 mx-2"><span class="text-lg font-bold" /></div>
+	<div class="flex-1 mx-2 px-2"><span class="font-bold text-lg" /></div>
 	<div class="flex-none">
 		<button class="btn btn-circle btn-ghost">
 			<a href="/app/profile"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="w-6 h-6"
+					class="h-6 w-6"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"

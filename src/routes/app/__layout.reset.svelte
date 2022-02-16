@@ -1,14 +1,14 @@
 <script context="module">
-	export const load = async ({ page }) => ({
-		props: {
-			key: page.path
-		}
-	});
+	// export const load = async ({ page }) => ({
+	// 	props: {
+	// 		key: page.path
+	// 	}
+	// });
 </script>
 
 <script lang="typescript">
-	import Nav from '$lib/components/Navbar.svelte';
-	import Header from '$lib/components/Header.svelte';
+	import Nav from '$lib/components/private/Navbar.svelte';
+	import Header from '$lib/components/private/Header.svelte';
 	import Login from './auth/index.svelte';
 	import Transition from '$lib/components/Transition.svelte';
 	export let key;
