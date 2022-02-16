@@ -9,7 +9,7 @@
 	<div class="text-center place-items-center hero-content">
 		<div class="max-w-md">
 			<lottie-player
-				src="/party-popper.json"
+				src="https://assets9.lottiefiles.com/packages/lf20_Z71xVw.json"
 				mode="bounce"
 				class="w-48 h-48 transform -rotate-45 mt-5 z-10 center"
 				background="transparent"

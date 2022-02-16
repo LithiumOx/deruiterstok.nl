@@ -6,4 +6,4 @@ node_modules
 /Backend
 .env
 yarn-error.log
-/src/styles/*
+
