@@ -17,9 +17,6 @@
 	/>
 	<h1 class="font-bold text-center text-base-content pt-12 text-4xl">Wordt nog aan gewerkt!</h1> -->
 
-	<!-- <div class="flex-grow prose">
-		<h1>Nieuwsbrieven</h1>
-	</div> -->
 	<div class="flex-grow-0"><Content /></div>
 </div>
 
