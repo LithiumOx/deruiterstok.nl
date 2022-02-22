@@ -27,6 +27,9 @@
 	<title>Ruiterstok/nieuws</title>
 	<meta name="description" content="Nieuws over De Ruiterstok" />
 	<meta name="keywords" content="Bestuur, Vereniging, Leiding, Vrijwilligers, Jeugd" />
+	<style>
+		@import url('/fonts/AppleColorEmoji.ttf');
+	</style>
 </svelte:head>
 
 <style>
