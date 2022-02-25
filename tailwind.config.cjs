@@ -1,6 +1,6 @@
 const config = {
 	mode: 'jit',
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+	content: ['./src/**/*.{html,js,svelte,ts,svg}'],
 	plugins: [require('@tailwindcss/typography'), require('daisyui')]
 };
 

@@ -4,7 +4,7 @@
 
 <footer class="bg-neutral rounded-box mt-2.5 text-neutral-content p-7 bottom-0 footer">
 	<div>
-		<img class="h-16 w-16" src={Logo} alt="" />
+		<img class="h-14 w-14" src={Logo} alt="" />
 		<p class="text-base-content">
 			J.V. De Ruiterstok
 			<br />Organisatie in het belang van de jeugd uit Schermerhorn
