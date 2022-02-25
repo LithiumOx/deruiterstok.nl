@@ -11,26 +11,24 @@
 			<lottie-player
 				src="https://assets9.lottiefiles.com/packages/lf20_Z71xVw.json"
 				mode="bounce"
-				class="w-48 h-48 transform -rotate-45 mt-5 z-10 center"
+				class="w-48 h-48 transform -rotate-45 mt-5 z-10 mx-[30%] "
 				background="transparent"
 				speed="1.5"
 				loop
 				autoplay
 			/>
 			<h1
-				class="mb-5 text-6xl first-line:text-7xl subpixel-antialiased font-black text-transparent bg-gradient-to-b from-primary to-secondary bg-clip-text decoration-clone"
+				class="mb-5 prose text-6xl mt-2 first-line:text-7xl subpixel-antialiased font-black text-transparent bg-gradient-to-b from-primary to-secondary bg-clip-text decoration-clone"
 			>
 				Seizoen<br />2021-2022
 			</h1>
-			<p class="mb-5 subpixel-antialiased align-middle text-base-content">
+			<p class="mb-5 prose subpixel-antialiased align-middle text-base-content">
 				Het nieuwe seizoen is begonnen, 2021-2022! En jeetje wat zijn we trots dat we na 1.5 jaar
-				mogen zeggen dat we weer een te gek aantal ruiterstokkers hebben! Ongeveer 40 jongeren mogen
-				zich een heuse Ruiterstokker noemen.<br /><br /> Doordat we weinig open zijn geweest door de
-				welbekende Corona, hebben we onze reeds bestaande leden de kans gegeven om het lidmaatschap kosteloos
-				door te trekken naar het nieuwe seizoen. Maar natuurlijk is een (vrijwillige) bijdrage voor de
-				vereniging meer dan welkom. Immers had je normaliter ook weer lid moeten worden.
+				mogen zeggen dat we weer een te gek aantal ruiterstokkers hebben! Ongeveer 45 jongeren mogen
+				zich een heuse Ruiterstokker noemen.<br /><br /> Lees nu de nieuwe nieuwsbrief en meld je snel
+				aan!
 			</p>
-			<a href="/word-lid" class="mb-5 subpixel-antialiased btn btn-primary">Word lid!</a>
+			<a href="/nieuws" class="mb-5 subpixel-antialiased btn btn-secondary">Nieuwsbrief</a>
 		</div>
 	</div>
 </div>

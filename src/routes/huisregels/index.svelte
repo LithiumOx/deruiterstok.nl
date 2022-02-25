@@ -1,5 +1,7 @@
 <div class="bg-base-200 min-h-[80vh] rounded-box p-3 flex flex-wrap justify-center">
-	<h1 class="self-center p-3 text-4xl font-extrabold text-base-content flex-nowrap">Huisregels</h1>
+	<h1 class="self-center p-3 prose text-4xl font-extrabold text-base-content flex-nowrap">
+		Huisregels
+	</h1>
 	<ul class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-stretch">
 		<li class="flex-wrap">
 			• <p>Wij schenken alleen alcohol aan 18 jaar en ouder.</p>
@@ -9,7 +11,7 @@
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
-						class="w-6 h-6 mx-2 stroke-current"
+						class="w-9 h-9 mx-2 stroke-current"
 					>
 						<path
 							stroke-linecap="round"
@@ -34,7 +36,7 @@
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
-						class="w-6 h-6 mx-2 stroke-current"
+						class="h-9 w-9 mx-2 stroke-current"
 					>
 						<path
 							stroke-linecap="round"
@@ -101,13 +103,13 @@
 			• <p>Op vrijdag geldt een minimale leeftijd van 16 jaar.</p>
 		</li>
 	</ul>
-	<div class="self-end p-2 alert alert-error">
+	<div class="self-end p-2 my-auto alert alert-error">
 		<div class="items-center flex-1 font-bold">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
 				viewBox="0 0 24 24"
-				class="mx-2 stroke-current w-14 h-14 animate-pulse"
+				class="mx-2 stroke-current w-7 h-7 lg:w-14 lg:h-14 animate-pulse"
 			>
 				<path
 					stroke-linecap="round"
@@ -137,14 +139,14 @@
 		@apply p-2;
 	}
 	li {
-		@apply flex m-0.5 p-2 px-2 max-w-xl text-left font-black text-primary text-2xl bg-neutral-focus border-2 transition duration-300 border-base-300 hover:border-primary rounded-box items-center;
+		@apply flex m-0.5 p-2 px-2 max-w-xl text-left font-black text-primary  bg-neutral-focus border-2 transition duration-300 border-base-300 hover:border-primary rounded-box items-center;
 	}
 
 	p {
-		@apply ml-2 text-sm font-light text-base-content subpixel-antialiased;
+		@apply prose ml-2 text-sm font-light text-base-content subpixel-antialiased;
 	}
 
 	label {
-		@apply text-xs subpixel-antialiased break-words align-middle;
+		@apply prose text-xs subpixel-antialiased align-middle;
 	}
 </style>

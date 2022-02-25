@@ -18,7 +18,7 @@
 	/>
 	<h1 class="font-bold text-center text-base-content pt-12 text-4xl">Wordt nog aan gewerkt!</h1> -->
 
-	<article class="prose md:prose-lg lg:prose-xl mx-auto p-5 rounded-box bg-base-300 ">
+	<article class="prose md:prose-lg lg:prose-xl mx-auto py-7 p-5 rounded-box bg-base-300 ">
 		<Content />
 	</article>
 </div>

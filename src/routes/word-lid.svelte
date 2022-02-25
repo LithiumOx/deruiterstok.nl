@@ -82,7 +82,7 @@
 					<a class="flex-none w-1/3 mr-1 text-center btn" href="/">← Terug</a>
 					<div class="flex-grow" />
 					<a
-						href="mailto:ruiterstok@outlook.com?subject={Naam}%20{Achternaam}%20wil%20lid%20worden!&body=Naam%3A%20{Naam}%20{Achternaam}%0D%0AGeboortedatum%3A%20{Dag}-{Maand}-{Jaar}%0D%0ATelefoonnummer%3A%20{Nummer}"
+						href="mailto:info@deruiterstok.nl?subject={Naam}%20{Achternaam}%20wil%20lid%20worden!&body=Naam%3A%20{Naam}%20{Achternaam}%0D%0AGeboortedatum%3A%20{Dag}-{Maand}-{Jaar}%0D%0ATelefoonnummer%3A%20{Nummer}"
 						class="flex-none w-1/3 ml-1 place-self-end btn btn-primary">Mail ons!</a
 					>
 				</div>

@@ -7,9 +7,9 @@
 		const btn = document.querySelector('button.mobile-menu-button');
 		const menu = document.querySelector('.mobile-menu');
 		// add event listeners
-		// btn.addEventListener('click', () => {
-		// 	menu.classList.toggle('hidden');
-		// });
+		btn.addEventListener('click', () => {
+			menu.classList.toggle('hidden');
+		});
 	});
 </script>
 
@@ -17,7 +17,7 @@
 <div class="bg-neutral rounded-box shadow-lg text-neutral-content mb-2.5 justify-between navbar">
 	<a href="/" class="flex mx-2 px-2 no-underline">
 		<img class="h-12 w-12" src={Logo} alt="" />
-		<span class="font-semibold text-lg text-base-content text-middle no-underline">
+		<span class="prose font-semibold text-lg text-base-content text-middle no-underline">
 			De Ruiterstok
 		</span>
 	</a>
@@ -31,7 +31,7 @@
 				{#if $page.url.pathname === '/'}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="stroke-current mr-2 w-5 inline-block"
+						class=" fill-primary mr-2 w-5 inline-block"
 						viewBox="0 0 20 20"
 						fill="currentColor"
 					>
@@ -66,7 +66,7 @@
 				{#if $page.url.pathname === '/huisregels'}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="stroke-current mr-2 w-5 inline-block"
+						class="fill-primary stroke-primary mr-2 w-5 inline-block"
 						viewBox="0 0 20 20"
 						fill="currentColor"
 					>
@@ -95,7 +95,7 @@
 				{#if $page.url.pathname === '/nieuws'}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="stroke-current mr-2 w-5 inline-block"
+						class="fill-primary mr-2 w-5 inline-block"
 						viewBox="0 0 20 20"
 						fill="currentColor"
 					>
@@ -129,7 +129,7 @@
 				{#if $page.url.pathname === '/over-ons'}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="stroke-current mr-2 w-5 inline-block"
+						class="fill-primary  mr-2 w-5 inline-block"
 						viewBox="0 0 20 20"
 						fill="currentColor"
 					>
@@ -158,7 +158,7 @@
 
 				Over ons
 			</a>
-			<a href="/word-lid" class="ml-2.5 subpixel-antialiased btn btn-primary">Word lid!</a>
+			<a href="/word-lid" class=" ml-3.5 subpixel-antialiased btn btn-primary">Word lid!</a>
 		</div>
 	</div>
 
