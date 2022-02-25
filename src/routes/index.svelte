@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="hero min-h-[80vh] rounded-box bg-base-200 bg-fixed bg-origin-border"
+	class="hero min-h-[90vh] rounded-box bg-base-200 bg-fixed bg-origin-border"
 	style="background-image: url({Background});background-repeat: repeat;"
 >
 	<div class="text-center place-items-center hero-content">
@@ -18,7 +18,7 @@
 				autoplay
 			/>
 			<h1
-				class="mb-5 prose text-6xl mt-2 first-line:text-7xl subpixel-antialiased font-black text-transparent bg-gradient-to-b from-primary to-secondary bg-clip-text decoration-clone"
+				class="mb-5 prose text-6xl mt-2 first-line:text-7xl subpixel-antialiased font-black text-transparent bg-gradient-to-r from-primary to-secondary bg-clip-text decoration-clone"
 			>
 				Seizoen<br />2021-2022
 			</h1>

@@ -2935,6 +2935,12 @@ html {
 .min-h-\[80vh\] {
   min-height: 80vh;
 }
+.min-h-\[8vh\] {
+  min-height: 8vh;
+}
+.min-h-\[90vh\] {
+  min-height: 90vh;
+}
 .w-48 {
   width: 12rem;
 }

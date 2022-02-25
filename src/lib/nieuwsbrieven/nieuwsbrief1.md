@@ -10,10 +10,12 @@ Op dit moment heeft de Ruiterstok 43 leden en dat is fantastisch nieuws. We hope
 
 Het programma wordt gedeeld via de mail, facebook, instagram en de site (deruiterstok.nl). Deze laatste is nog “under construction” maar wordt heel gaaf. Voor de komende periode is dit het geplande programma:
 
-- 26 Feb → Informeel feest
-- 12 Mrt → Bugs life (insectenhotel bouwen & plaatsen)
-- 26 Mrt → Krav Maga proefles
-- 9 Apr → Oudermiddag/avond voor ouders! (Blok je agenda en zoek alvast een oppas voor de kinderen 😉)
+| Datum  | Activiteit                                                                                   |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 26 Feb | Informeel feest                                                                              |
+| 12 Mrt | Bugs life (insectenhotel bouwen & plaatsen)                                                  |
+| 26 Mrt | Krav Maga proefles                                                                           |
+| 9 Apr  | Oudermiddag/avond voor ouders! (Blok je agenda en zoek alvast een oppas voor de kinderen 😉) |
 
 ## 🍻 Brijder training oproep:
 

@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="bg-base-200 rounded-box flex-wrap min-h-[80vh] bg-fixed bg-origin-border bg-blend-color-burn"
+	class="bg-base-200 rounded-box flex-wrap min-h-[90vh] bg-fixed bg-origin-border bg-blend-color-burn"
 	style="background-image: url({Background});"
 >
 	<lottie-player

@@ -5,7 +5,7 @@
 </script>
 
 <div
-	class="rounded-box flex-wrap bg-base-200 min-h-[80vh] bg-origin-border bg-bottom bg-fixed p-2.5 md:p-5 self-center"
+	class="rounded-box flex-wrap bg-base-200 min-h-[90vh] bg-origin-border bg-bottom bg-fixed p-2.5 md:p-5 self-center"
 	style="background-image: url({Background});"
 >
 	<!-- <lottie-player
