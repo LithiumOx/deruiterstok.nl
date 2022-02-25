@@ -12,7 +12,7 @@ Het programma wordt gedeeld via de mail, facebook, instagram en de site (deruite
 
 - 26 Feb → Informeel feest
 - 12 Mrt → Bugs life (insectenhotel bouwen & plaatsen)
-- 26 Mrt → Karten
+- 26 Mrt → Krav Maga proefles
 - 9 Apr → Oudermiddag/avond voor ouders! (Blok je agenda en zoek alvast een oppas voor de kinderen 😉)
 
 ## 🍻 Brijder training oproep:
