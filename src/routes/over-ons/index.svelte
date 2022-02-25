@@ -1,4 +1,11 @@
-<div class="bg-base-200 rounded-box flex-wrap min-h-[80vh]">
+<script>
+	import Background from '../../assets/topography.svg';
+</script>
+
+<div
+	class="bg-base-200 rounded-box flex-wrap min-h-[80vh] bg-fixed bg-origin-border bg-blend-color-burn"
+	style="background-image: url({Background});"
+>
 	<lottie-player
 		src="https://assets7.lottiefiles.com/private_files/lf30_ot4mddw5.json"
 		background="transparent"

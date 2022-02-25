@@ -1,4 +1,11 @@
-<div class="bg-base-200 min-h-[80vh] rounded-box p-3 flex flex-wrap justify-center">
+<script>
+	import Background from '../../assets/topography.svg';
+</script>
+
+<div
+	class="bg-base-200 min-h-[80vh] rounded-box p-3 flex flex-wrap justify-center bg-fixed bg-origin-border"
+	style="background-image: url({Background});"
+>
 	<h1 class="self-center p-3 prose text-4xl font-extrabold text-base-content flex-nowrap">
 		Huisregels
 	</h1>
