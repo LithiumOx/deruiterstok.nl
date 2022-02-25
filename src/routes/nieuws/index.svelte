@@ -1,6 +1,6 @@
 <script>
-	// import Content from './nieuwsbrief-16-feb.svelte';
 	import Content from '$lib/nieuwsbrieven/nieuwsbrief1.md';
+
 	import Background from '../../assets/topography.svg';
 </script>
 
@@ -18,7 +18,9 @@
 	/>
 	<h1 class="font-bold text-center text-base-content pt-12 text-4xl">Wordt nog aan gewerkt!</h1> -->
 
-	<article class="prose md:prose-lg lg:prose-xl mx-auto py-7 p-5 rounded-box bg-base-300 ">
+	<article
+		class="prose underline-offset-2 prose-a:after:content-['_↗'] md:prose-lg lg:prose-xl mx-auto py-7 p-5 rounded-box bg-base-300 "
+	>
 		<Content />
 	</article>
 </div>
@@ -31,10 +33,3 @@
 		@import url('/fonts/AppleColorEmoji.ttf');
 	</style>
 </svelte:head>
-
-<style>
-	/* text- auto lottie-player
-		margin: 0 ;
-		padding-top: 5vh;
-	}  */
-</style>

@@ -1,6 +1,6 @@
 # De Ruiterstok - Nieuwsbrief
 
-##### 📖 9 Februari 2022
+> 22 Februari 2022
 
 ## ℹ️ Algemeen:
 
@@ -37,7 +37,7 @@ Nu er geen café meer is zullen wij wat vaker en regelmatiger avonden opengaan v
 
 ## 🆘 Herhaalde Oproep vrijwilligers;
 
-Tot slot: wij merken dat het enthousiasme onder onze leden giga groot is. Het is prachtig om te zien hoe kinderen spelen, omgaan, elkaar tolereren en veel lol hebben. Wij zijn van mening dat De Ruiterstok een belangrijke rol speelt in de opvoeding en ontwikkeling van deze kinderen. Ben jij dat met ons eens? Meld je dan alsjeblieft aan als vrijwilliger via vrijwilligers@deruiterstok.nl!
+Tot slot: wij merken dat het enthousiasme onder onze leden giga groot is. Het is prachtig om te zien hoe kinderen spelen, omgaan, elkaar tolereren en veel lol hebben. Wij zijn van mening dat De Ruiterstok een belangrijke rol speelt in de opvoeding en ontwikkeling van deze kinderen. Ben jij dat met ons eens? Meld je dan alsjeblieft aan als vrijwilliger via vrijwilligers@deruiterstok.nl
 
 Want met het groepje waar we het nu mee doen merken we dat het voor het mooie net te veel werk is. Uiteindelijk willen we er naar toe dat de kinderen die nu lid worden in de loop van de tijd ook leiding lid en/of bestuurslid worden. Dat betekent dat we daar nu in moeten investeren.
 
