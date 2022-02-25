@@ -3121,6 +3121,9 @@ html {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
 }
+.bg-fixed {
+  background-attachment: fixed;
+}
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
