@@ -324,3 +324,9 @@
 		</ul>
 	</div>
 </div>
+
+<style>
+	span {
+		font-family: 'Staatliches', cursive;
+	}
+</style>

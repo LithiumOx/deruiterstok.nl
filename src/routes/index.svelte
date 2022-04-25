@@ -1,35 +1,32 @@
 <script>
 	import Background from '../assets/topography.svg';
+	import Event from '$lib/components/Event.svelte';
 </script>
 
 <div
 	class="hero min-h-[90vh] rounded-box bg-base-200 bg-fixed bg-origin-border"
 	style="background-image: url({Background});background-repeat: repeat;"
 >
-	<div class="text-center place-items-center hero-content">
+	<div class="text-center grid place-items-center hero-content">
 		<div class="max-w-md">
 			<lottie-player
-				src="https://assets9.lottiefiles.com/packages/lf20_Z71xVw.json"
+				src="https://assets5.lottiefiles.com/packages/lf20_bei3yaim.json"
 				mode="bounce"
-				class="w-48 h-48 transform -rotate-45 mt-5 z-10 mx-[30%] "
+				class="w-48 h-48 mt-5 mx-auto "
 				background="transparent"
-				speed="1.5"
+				speed="1"
 				loop
 				autoplay
 			/>
 			<h1
-				class="mb-5 prose text-6xl mt-2 first-line:text-7xl subpixel-antialiased font-black text-transparent bg-gradient-to-r from-primary to-secondary bg-clip-text decoration-clone"
+				class="mb-6 prose text-7xl mt-2 first-line:text-6xl subpixel-antialiased font-black text-transparent bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text decoration-clone"
 			>
-				Seizoen<br />2021-2022
+				Koningsdag<br />2022
 			</h1>
-			<p class="mb-5 prose subpixel-antialiased align-middle text-base-content">
-				Het nieuwe seizoen is begonnen, 2021-2022! En jeetje wat zijn we trots dat we na 1.5 jaar
-				mogen zeggen dat we weer een te gek aantal ruiterstokkers hebben! Ongeveer 45 jongeren mogen
-				zich een heuse Ruiterstokker noemen.<br /><br /> Lees nu de nieuwe nieuwsbrief en meld je snel
-				aan!
-			</p>
-			<a href="/nieuws" class="mb-5 subpixel-antialiased btn btn-secondary">Nieuwsbrief</a>
+
+			<!-- <a href="/nieuws" class="mb-5 subpixel-antialiased btn btn-secondary">Nieuwsbrief</a> -->
 		</div>
+		<Event />
 	</div>
 </div>
 
@@ -44,3 +41,9 @@
 		content="Jeugd, Vereniging, De Ruiterstok, Ruiterstok, deruiterstok.nl, Schermerhorn"
 	/>
 </svelte:head>
+
+<style>
+	h1 {
+		font-family: 'Staatliches', cursive;
+	}
+</style>
